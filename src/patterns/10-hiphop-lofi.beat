@@ -1,0 +1,153 @@
+# Beat Bank — Hip-Hop, Lofi, Trap, Trip-Hop
+# Format: name/genre/steps then voice rows. '.'=rest 'x'=hit 'A'=accent 'g'=ghost
+# Edit freely. Drop your own .beat files in /data/UserData/schwung/beatbank/patterns
+
+name: BoomBap Basic
+genre: HIPHOP
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: BoomBap Ghost
+genre: HIPHOP
+steps: 16
+kick: x......gx.......
+snare: ...gA......gA...
+ch: xxxxxxxxxxxxxxxx
+
+name: Funky Drummer
+genre: HIPHOP
+steps: 16
+kick: x..x....x.......
+snare: ....A..g..g.A..g
+ch: xxxxxxxxxxxxxx.x
+oh: ..............x.
+
+name: Pete Rock
+genre: HIPHOP
+steps: 16
+kick: x.......x..x....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+oh: ......x.........
+
+name: Premier Hard
+genre: HIPHOP
+steps: 16
+kick: x.....x.x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Chill
+genre: LOFI
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+perc: ..x...x...x...x.
+
+name: Lofi BoomBap
+genre: LOFI
+steps: 16
+kick: x..g....x..g....
+snare: ....A..g....A...
+ch: xgxgxgxgxgxgxgxg
+
+name: Lofi HalfTime
+genre: LOFI
+steps: 16
+kick: x.........x.....
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Dilla
+genre: LOFI
+steps: 16
+kick: x....x..x.......
+snare: g...A..g.g..A..g
+ch: xxxxxxxxxxxxxxxx
+oh: ..........x.....
+
+name: Lofi 2Bar
+genre: LOFI
+steps: 32
+kick: x.......x.......x.......x.....x.
+snare: ....A.......A.......A.......A..g
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+oh: ......................x.........
+
+name: Trap Basic
+genre: TRAP
+steps: 16
+kick: x.....x...x.....
+clap: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Trap Hats
+genre: TRAP
+steps: 16
+kick: x.........x.x...
+clap: ........A.......
+ch: AxxxAxxxAxxxAxxx
+
+name: Trap 808
+genre: TRAP
+steps: 16
+kick: x..x...x..x.x...
+clap: ........A.......
+ch: xxxxxxxxxxxxxxxx
+
+name: Trap Roll
+genre: TRAP
+steps: 32
+kick: x.....x...x.....x.....x...x...x.
+clap: ........A...............A.......
+ch: x.x.xxxxx.x.x.x.x.x.xxxxx.x.xxxx
+oh: ..............................x.
+
+name: Trap Dark
+genre: TRAP
+steps: 16
+kick: x.........x.....
+clap: ........A.......
+rim: ............x..x
+ch: x.x.x.x.x.x.x.x.
+oh: ......x.........
+
+name: Triphop Heart
+genre: TRIPHOP
+steps: 16
+kick: x..x....x..x....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Triphop Break
+genre: TRIPHOP
+steps: 32
+kick: x.....x.x.......x.....x.....x...
+snare: ....A..g..A.g.......A.....g..A.g
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Triphop Dub
+genre: TRIPHOP
+steps: 16
+kick: x.........x.....
+rim: ....A.......A...
+ch: x.......x.......
+oh: ..x...x...x...x.
+
+name: Triphop Jazzy
+genre: TRIPHOP
+steps: 16
+kick: x......x.x......
+snare: g...A..g..g.A..g
+ride: x.x.x.x.x.x.x.x.
+
+name: Triphop Heavy
+genre: TRIPHOP
+steps: 16
+kick: x.......x..x....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+crash: x...............

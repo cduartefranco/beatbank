@@ -1,0 +1,166 @@
+# Beat Bank — Latin, Bossa, Samba, Afrobeat, Reggae, Calypso
+# The clave-only patterns (rim row) are foundational reference grooves —
+# layer them, or use them as a starting point.
+
+name: Son Clave 3-2
+genre: LATIN
+steps: 32
+rim: x.....x.....x.......x...x.......
+
+name: Son Clave 2-3
+genre: LATIN
+steps: 32
+rim: ....x...x.......x.....x.....x...
+
+name: Rumba Clave 3-2
+genre: LATIN
+steps: 32
+rim: x.....x.......x.....x...x.......
+
+name: Rumba Clave 2-3
+genre: LATIN
+steps: 32
+rim: ....x...x.......x.....x.......x.
+
+name: Bossa Nova
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+kick: x.....x.x.....x.x.....x.x.....x.
+
+name: Bossa Nova Busy
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+kick: x.....x.x.....x.x.....x.x.....x.
+perc: AxxxxxxxAxxxxxxxAxxxxxxxAxxxxxxx
+
+name: Samba
+genre: SAMBA
+steps: 16
+kick: g...A...g...A...
+ch: x.x.x.x.x.x.x.x.
+perc: xxxxxxxxxxxxxxxx
+
+name: Samba Busy
+genre: SAMBA
+steps: 16
+kick: g...A...g...A...
+snare: ....x.......x...
+rim: x..x..x...x..x..
+cowbell: .x.x.x.x.x.x.x.x
+perc: xxxxxxxxxxxxxxxx
+
+name: Baiao
+genre: SAMBA
+steps: 16
+kick: x.....x.x.....x.
+tom: ....x.......x...
+perc: xxxxxxxxxxxxxxxx
+
+name: Son Montuno
+genre: LATIN
+steps: 16
+rim: x..x..x...x.x...
+cowbell: A.x.x.x.A.x.x.x.
+conga: ....x.A.....x.A.
+kick: ......x.....x...
+
+name: Mambo
+genre: LATIN
+steps: 16
+rim: ..x.x...x..x..x.
+cowbell: A.x.x.A.A.x.x.A.
+conga: ....x.A.....x.A.
+kick: ......x.....x...
+perc: xxxxxxxxxxxxxxxx
+
+name: Cha-Cha-Cha
+genre: LATIN
+steps: 16
+cowbell: x...x...x...x.x.
+conga: ....x.A.....x.A.
+kick: x.......x.....x.
+perc: x.x.x.x.x.x.x.x.
+
+name: Songo
+genre: LATIN
+steps: 16
+rim: ..x.x...x..x..x.
+snare: ...gx......gx...
+conga: ....x.A.....x.A.
+kick: ......x.......x.
+
+name: Rumba Guaguanco
+genre: LATIN
+steps: 16
+rim: x..x...x..x.x...
+conga: ......AA......AA
+tom: ..x.....x.x.....
+perc: x.x.x.x.x.x.x.x.
+
+name: Afrobeat
+genre: AFRO
+steps: 16
+kick: x.....x.....x...
+snare: ...x......x.....
+ch: x.x.x.x.x.x.x.x.
+
+name: Afrobeat Busy
+genre: AFRO
+steps: 16
+kick: x.....x.x...x...
+snare: ...A...g..A...g.
+ch: x.A.x.A.x.A.x.A.
+cowbell: ....x.......x...
+conga: ..x...A...x...A.
+perc: xxxxxxxxxxxxxxxx
+
+name: One Drop
+genre: REGGAE
+steps: 16
+kick: ........x.......
+snare: ........x.......
+ch: x.x.x.x.x.x.x.x.
+
+name: One Drop Busy
+genre: REGGAE
+steps: 16
+kick: ........x.....x.
+snare: ........x.......
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Steppers
+genre: REGGAE
+steps: 16
+kick: x...x...x...x...
+snare: ........x.......
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Rockers
+genre: REGGAE
+steps: 16
+kick: x.......x.......
+snare: ........x.......
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Calypso
+genre: CALYPSO
+steps: 16
+kick: x.....x...x.....
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+perc: ..x...x...x...x.
+
+name: Soca
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.....x.x...
+ch: xxx.xxx.xxx.xxx.
+oh: ...x...x...x...x

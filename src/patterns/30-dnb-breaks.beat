@@ -1,0 +1,152 @@
+# Beat Bank — Drum & Bass, Jungle, Breakbeat, Dubstep
+
+name: Two-Step
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Two-Step Roll
+genre: DNB
+steps: 16
+kick: x.........x....x
+snare: ...gA..g...gA..g
+ch: x.x.x.x.x.x.x.x.
+
+name: Liquid
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: ....A.......A..g
+ride: x.x.x.x.x.x.x.x.
+perc: ..x...x...x...x.
+
+name: Neuro Half
+genre: DNB
+steps: 16
+kick: x..........x....
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Neuro Roll
+genre: DNB
+steps: 16
+kick: x..x....x..x..x.
+snare: .......gA......g
+ch: x.x.x.x.x.x.x.x.
+
+name: Jump-Up
+genre: DNB
+steps: 16
+kick: x.....x...x.....
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+oh: ......x.......x.
+
+name: Rollers
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: .g.gAg.g.g.gAg.g
+ch: ..x...x...x...x.
+
+name: Amen
+genre: JUNGLE
+steps: 32
+kick: x.x.......x.....x.........x.....
+snare: ...gA..g....A..g...gA..g...A...g
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+crash: ..........................x.....
+
+name: Think
+genre: JUNGLE
+steps: 32
+kick: x.........x....xx.........x....x
+snare: ....A..g....A.......A..g....A...
+ch: x.x.x.x.x.x.x...x.x.x.x.x.x.x...
+oh: ..............x...............x.
+
+name: Jungle
+genre: JUNGLE
+steps: 16
+kick: x.........x.....
+snare: ....A..g..g.A..g
+ch: ..x...x...x...x.
+
+name: Ragga Jungle
+genre: JUNGLE
+steps: 32
+kick: x.x..x....x.x...x.x..x....x.x...
+snare: ....A..g....A..g....A..g....A..g
+ch: ..x...x...x...x...x...x...x...x.
+tom: .............................xx.
+
+name: Breakbeat
+genre: BREAKS
+steps: 16
+kick: x.....x...x.....
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+
+name: Big Beat
+genre: BREAKS
+steps: 16
+kick: x...x.x...x...x.
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Breakbeat Busy
+genre: BREAKS
+steps: 32
+kick: x.........x.....x.........x.....
+snare: ....x.......x.......x....x.x.xxx
+ch: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: Nu-Skool Breaks
+genre: BREAKS
+steps: 16
+kick: x..x..x...x..x..
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+rim: ..x...x...x...x.
+
+name: Dubstep
+genre: DUBSTEP
+steps: 16
+kick: x...............
+snare: ........x.......
+ch: ..x...x...x...x.
+
+name: Dubstep Sub
+genre: DUBSTEP
+steps: 16
+kick: x......x...x....
+snare: ........A.......
+ch: ..x...x...x...x.
+oh: ..............x.
+
+name: Dubstep Clap
+genre: DUBSTEP
+steps: 16
+kick: x.........x.....
+snare: ........A.......
+clap: ........x.......
+rim: ..............x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Dubstep 2-Bar
+genre: DUBSTEP
+steps: 32
+kick: x..........x....x..........x..x.
+snare: ........A......g........A......g
+ch: ..x...x...x...x...x...x...x...x.
+
+name: Riddim
+genre: DUBSTEP
+steps: 16
+kick: x......xx.......
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+rim: ..............x.

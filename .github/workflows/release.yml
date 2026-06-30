@@ -1,0 +1,88 @@
+name: Release Module
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build and package module
+        run: ./scripts/package.sh docker
+
+      - name: Read module identity
+        id: module
+        run: |
+          ID=$(python3 -c "import json; print(json.load(open('src/module.json'))['id'])")
+          VERSION=$(python3 -c "import json; print(json.load(open('src/module.json'))['version'])")
+          echo "id=${ID}" >> "$GITHUB_OUTPUT"
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "tarball=${ID}-v${VERSION}-module.tar.gz" >> "$GITHUB_OUTPUT"
+          echo "tarball_unversioned=${ID}-module.tar.gz" >> "$GITHUB_OUTPUT"
+
+      - name: Verify tag matches module version
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          if [ "$TAG" != "${{ steps.module.outputs.version }}" ]; then
+            echo "Tag $TAG != module.json version ${{ steps.module.outputs.version }}"; exit 1
+          fi
+
+      - name: Create unversioned copy for Schwung installer
+        run: cp dist/${{ steps.module.outputs.tarball }} dist/${{ steps.module.outputs.tarball_unversioned }}
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/${{ steps.module.outputs.tarball }}
+            dist/${{ steps.module.outputs.tarball_unversioned }}
+
+      - name: Update release.json on main
+        env:
+          REPO: ${{ github.repository }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          ID="${{ steps.module.outputs.id }}"
+          VERSION="${{ steps.module.outputs.version }}"
+          TARBALL_UNVERSIONED="${ID}-module.tar.gz"
+          DOWNLOAD_URL="https://github.com/${REPO}/releases/download/${TAG_NAME}/${TARBALL_UNVERSIONED}"
+
+          git fetch origin main
+          git switch main || git switch --create main --track origin/main
+          git pull --ff-only origin main
+
+          python3 - <<EOF
+          import json
+          data = {
+              "id": "${ID}",
+              "name": "Beat Bank",
+              "description": "Library of standard drum patterns (lofi, dnb, bossa, house, techno) — no randomness, just load and play.",
+              "component_type": "midi_fx",
+              "version": "${VERSION}",
+              "download_url": "${DOWNLOAD_URL}"
+          }
+          with open("release.json", "w") as f:
+              json.dump(data, f, indent=4)
+              f.write("\n")
+          EOF
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add release.json
+          if git diff --cached --quiet; then echo "release.json up to date"; exit 0; fi
+          git commit -m "chore: update release.json for ${TAG_NAME}"
+          git push origin main
