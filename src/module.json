@@ -12,6 +12,7 @@
         "midi_out": true,
         "chainable": true,
         "component_type": "midi_fx",
+        "pre_capable": true,
         "ui_hierarchy": {
             "levels": {
                 "root": {
