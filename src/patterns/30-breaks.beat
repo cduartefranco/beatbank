@@ -1,0 +1,425 @@
+# Beat Bank — Drum & Bass, Jungle, Breakbeat
+
+name: TwoStep
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: TwoStepGhst
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: ....A..g....A..g
+ch: x.x.x.x.x.x.x.x.
+
+name: Liquid
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: ....A.g.....A.g.
+oh: ..x...x...x...x.
+ch: xxxxxxxxxxxxxxxx
+
+name: Rollers
+genre: DNB
+steps: 32
+kick: x.........x.....x.........x.....
+snare: ....A..g.g..A..g....A..g.g..A..g
+ch: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: NeuroStep
+genre: DNB
+steps: 16
+kick: x......x........
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: NeuroHalf
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: ....g...A...g...
+ch: x.x.x.x.x.x.x.x.
+
+name: Halftime
+genre: DNB
+steps: 16
+kick: x.......x.......
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: JumpUp
+genre: DNB
+steps: 16
+kick: x.......x.x.....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: JumpUp2
+genre: DNB
+steps: 16
+kick: x....x..x.x.....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Steppa
+genre: DNB
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Darkstep
+genre: DNB
+steps: 16
+kick: x....x....x.....
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: Techstep
+genre: DNB
+steps: 16
+kick: x..x......x..x..
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: Minimal
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: ....A.......A...
+ch: ..x...x...x...x.
+
+name: Skippy
+genre: DNB
+steps: 16
+kick: x.........xx....
+snare: ....A..g....A..g
+ch: x.x.x.x.x.x.x.x.
+
+name: Dancefloor
+genre: DNB
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Rollout
+genre: DNB
+steps: 32
+kick: x.........x.....x.........x.....
+snare: ....A.......A.......A...ggAgAgAg
+ch: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: Deep
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: ............A...
+ch: ..x...x...x...x.
+
+name: Drumfunk
+genre: DNB
+steps: 32
+kick: x..x....x.x.....x..x..x...x.....
+snare: ....A..g....A..g....A..g.gg.A..g
+ch: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: NeuroMain
+genre: DNB
+steps: 16
+kick: x......x..x.....
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: Sambass
+genre: DNB
+steps: 16
+kick: x.........x.....
+snare: ....A.......A...
+conga: x.xx.x.xx.xx.x.x
+ch: x.x.x.x.x.x.x.x.
+
+name: Amen
+genre: JUNGLE
+steps: 32
+kick: x.x.......xx....x.x.......x.....
+snare: ....A..g.g..A..g....A..g...g..A.
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+ch: x...x...x...x...x...x...x...x...
+crash: ............................x...
+
+name: AmenChop
+genre: JUNGLE
+steps: 32
+kick: x.x.....x.x.....x.....x...xx....
+snare: ....A..g....A..g....A......gA..g
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: AmenRoll
+genre: JUNGLE
+steps: 32
+kick: x.x.......xx....x.x.............
+snare: ....A..g.g..A..g....A...gAgAgAgA
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Think
+genre: JUNGLE
+steps: 32
+kick: x......xx.......x......x..x.....
+snare: ....A.g.....A.g.....A.g.....A...
+perc: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: ThinkChop
+genre: JUNGLE
+steps: 32
+kick: x......x.x......x..x....x.......
+snare: ....A.g.....A.......A.g.....A.g.
+perc: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Apache
+genre: JUNGLE
+steps: 16
+kick: x.....x...x.....
+snare: ....A.......A...
+conga: x.xx.xx.x.xx.xx.
+ch: x.x.x.x.x.x.x.x.
+
+name: FunkyDrum
+genre: JUNGLE
+steps: 16
+kick: x..x......x.....
+snare: ..g.A.gg..g.A.g.
+oh: .............x..
+ch: xxxxxxxxxxxxx.xx
+
+name: HotPants
+genre: JUNGLE
+steps: 16
+kick: x...x..x..x.....
+snare: ....A..g....A..g
+ch: x.x.x.x.x.x.x.x.
+
+name: SkullSnap
+genre: JUNGLE
+steps: 16
+kick: x.....x...x.....
+snare: ....A.......A..g
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: SoulPride
+genre: JUNGLE
+steps: 16
+kick: x..x..x..x.x....
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: Ragga
+genre: JUNGLE
+steps: 32
+kick: x.........x.....x.........x.....
+snare: ........A...............A.......
+rim: ..x...x...x...x...x...x...x...x.
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: RaggaChop
+genre: JUNGLE
+steps: 32
+kick: x..x....x.x.....x..x....x.x.....
+snare: ....A..g.g..A..g....A..g.g..A.gg
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Tramen
+genre: JUNGLE
+steps: 32
+kick: x.x.......xx....x......x..x.....
+snare: ....A..g.g..A..g....A.g.....A.g.
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Darkcore
+genre: JUNGLE
+steps: 32
+kick: x...x.....x.....x...x.....x.....
+snare: ........A...............A.......
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: JungleStep
+genre: JUNGLE
+steps: 16
+kick: x.........x.....
+snare: ....A..g....A..g
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: JglRollers
+genre: JUNGLE
+steps: 32
+kick: x.........x.....x.........x.....
+snare: ....A..g.g..A..g....A..g.g..A.gg
+ride: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: Bongo
+genre: JUNGLE
+steps: 32
+kick: x.........x.....x.........x.....
+snare: ....A.......A.......A.......A...
+conga: x.xx.x.xx.xx.x.xx.xx.x.x.xx.x.xx
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Tighten
+genre: JUNGLE
+steps: 16
+kick: x...x...x.x.....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: AmenHalf
+genre: JUNGLE
+steps: 32
+kick: x.........x.....x...............
+snare: ........A...............A...gAgA
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: BigBeat
+genre: BREAKS
+steps: 16
+kick: x.....x.x.x.....
+snare: ....A.......A...
+oh: ..x...x...x...x.
+ch: xxxxxxxxxxxxxxxx
+
+name: NuSkool
+genre: BREAKS
+steps: 16
+kick: x..x....x..x....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: FunkyBreaks
+genre: BREAKS
+steps: 16
+kick: x..x..x...x.....
+snare: ....A..g....A..g
+ch: xxxxxxxxxxxxxxxx
+
+name: ElectroBrk
+genre: BREAKS
+steps: 16
+kick: x.....x.x.......
+snare: ....A.......A...
+clap: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: FloridaBrk
+genre: BREAKS
+steps: 16
+kick: x..x..x.x..x..x.
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Breakbeat
+genre: BREAKS
+steps: 16
+kick: x.......x.x.....
+snare: ....A..g....A..g
+ch: x.x.x.x.x.x.x.x.
+
+name: AcidBreaks
+genre: BREAKS
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A..g
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: ProgBreaks
+genre: BREAKS
+steps: 32
+kick: x.........x.....x.........x.....
+snare: ....A.......A.......A.......A...
+oh: ..x...x...x...x...x...x...x...x.
+ch: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: Chemical
+genre: BREAKS
+steps: 16
+kick: x.x.....x.x.x...
+snare: ....A.......A...
+crash: x...............
+ch: x.x.x.x.x.x.x.x.
+
+name: Breakstep
+genre: BREAKS
+steps: 16
+kick: x.........x.x...
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: OldSkool
+genre: BREAKS
+steps: 32
+kick: x.......x.x.....x.......x.x.....
+snare: ....A.......A.......A.......A...
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: TribalBrk
+genre: BREAKS
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+conga: x.xx.x.xx.xx.x.x
+tom: ............x.x.
+
+name: PsyBreaks
+genre: BREAKS
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+oh: ..x...x...x...x.
+perc: x.x.x.x.x.x.x.x.
+
+name: WestCoast
+genre: BREAKS
+steps: 16
+kick: x..x..x..x......
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: BoomBap
+genre: BREAKS
+steps: 16
+kick: x.....x.x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: RollingBrk
+genre: BREAKS
+steps: 32
+kick: x.........x.....x.....x...x.....
+snare: ....A..g....A..g....A..g....A..g
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: NuSkool2
+genre: BREAKS
+steps: 32
+kick: x..x....x..x....x..x..x.x..x....
+snare: ....A.......A.......A.......A...
+ch: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: FunkBreak
+genre: BREAKS
+steps: 16
+kick: x..x......x.....
+snare: ..g.A.gg..g.A.g.
+ch: xxxxxxxxxxxxxxxx
+
+name: GhettoBrk
+genre: BREAKS
+steps: 16
+kick: x...x.xxx...x.xx
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.

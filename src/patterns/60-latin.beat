@@ -1,0 +1,388 @@
+# Beat Bank — Bossa Nova, Samba, Latin (Afro-Cuban)
+
+name: Bossa Clave 3-2
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+
+name: Bossa Clave 2-3
+genre: BOSSA
+steps: 32
+rim: ....x.....x.....x.....x.....x...
+
+name: Bossa Basic 3-2
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+kick: x.....x.x.....x.x.....x.x.....x.
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+ch: ....x.......x.......x.......x...
+
+name: Bossa Basic 2-3
+genre: BOSSA
+steps: 32
+rim: ....x.....x.....x.....x.....x...
+kick: x.....x.x.....x.x.....x.x.....x.
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+ch: ....x.......x.......x.......x...
+
+name: Bossa Sparse
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+kick: x.....x.........x.....x.........
+
+name: Bossa Shaker 3-2
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+kick: x.....x.x.....x.x.....x.x.....x.
+perc: AxxxAxxxAxxxAxxxAxxxAxxxAxxxAxxx
+
+name: Bossa Congas 3-2
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+kick: x.....x.x.....x.x.....x.x.....x.
+conga: ......A.......A.......A.......A.
+
+name: Bossa Full 3-2
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+kick: x.....x.x.....x.x.....x.x.....x.
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+ch: ....x.......x.......x.......x...
+conga: ......A.......A.......A.......A.
+perc: AxxxAxxxAxxxAxxxAxxxAxxxAxxxAxxx
+snare: ..g...g...g...g...g...g...g...g.
+
+name: Bossa Full 2-3
+genre: BOSSA
+steps: 32
+rim: ....x.....x.....x.....x.....x...
+kick: x.....x.x.....x.x.....x.x.....x.
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+ch: ....x.......x.......x.......x...
+conga: ......A.......A.......A.......A.
+perc: AxxxAxxxAxxxAxxxAxxxAxxxAxxxAxxx
+
+name: Bossa Brush 2-3
+genre: BOSSA
+steps: 32
+rim: ....x.....x.....x.....x.....x...
+snare: ..g...g...g...g...g...g...g...g.
+kick: x.....x.x.....x.x.....x.x.....x.
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Bossa Ride Bell
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+kick: x.....x.x.....x.x.....x.x.....x.
+ride: A.x.A.x.A.x.A.x.A.x.A.x.A.x.A.x.
+
+name: Bossa Surdo
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+kick: x.....x.x.....x.x.....x.x.....x.
+ch: ....x.......x.......x.......x...
+
+name: Bossa Busy Kick
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+kick: x.....x.x...x.x.x.....x.x...x.x.
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Bossa Minimal
+genre: BOSSA
+steps: 32
+rim: ....x.....x.....x.....x.....x...
+kick: x.....x.........x.....x.........
+
+name: Bossa Cross 2-3
+genre: BOSSA
+steps: 32
+rim: ....x.....x.....x.....x.....x...
+kick: x.....x.........x.....x.........
+perc: AxxxAxxxAxxxAxxxAxxxAxxxAxxxAxxx
+
+name: Bossa Tamborim
+genre: BOSSA
+steps: 32
+perc: x.....x.....x.......x.....x.....
+kick: x.....x.x.....x.x.....x.x.....x.
+ch: ....x.......x.......x.......x...
+
+name: Bossa Half-Time
+genre: BOSSA
+steps: 32
+rim: x.....x.....x.......x.....x.....
+kick: x.......x.......x.......x.......
+ride: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Samba Clave
+genre: SAMBA
+steps: 16
+rim: x..x..x...x..x..
+
+name: Batucada Basic
+genre: SAMBA
+steps: 16
+kick: g...A...g...A...
+snare: gggAgggAgggAgggA
+rim: .x.x.xx.x.xx.x.x
+perc: AxxxAxxxAxxxAxxx
+
+name: Batucada Full
+genre: SAMBA
+steps: 16
+kick: g...A...g...A...
+snare: gggAgggAgggAgggA
+rim: .x.x.xx.x.xx.x.x
+cowbell: x.x.x.x.x.x.x.x.
+conga: ..x...x...x...x.
+perc: AxxxAxxxAxxxAxxx
+tom: x.......x.......
+
+name: Surdo Marcacao
+genre: SAMBA
+steps: 16
+kick: g...A...g...A...
+tom: x.......x.......
+
+name: Caixa Groove
+genre: SAMBA
+steps: 16
+snare: gggAgggAgggAgggA
+perc: AxxxAxxxAxxxAxxx
+
+name: Tamborim Teleco
+genre: SAMBA
+steps: 16
+rim: .x.x.xx.x.xx.x.x
+perc: xxxxxxxxxxxxxxxx
+
+name: Samba Batida
+genre: SAMBA
+steps: 16
+kick: ....A.......A...
+snare: gggAgggAgggAgggA
+rim: .x.x.xx.x.xx.x.x
+perc: AxxxAxxxAxxxAxxx
+
+name: Baiao
+genre: SAMBA
+steps: 16
+kick: x.....x.x.....x.
+cowbell: x..x..x.x..x..x.
+perc: AxxxAxxxAxxxAxxx
+
+name: Baiao Agogo
+genre: SAMBA
+steps: 16
+kick: x.....x.x.....x.
+cowbell: x..x..x.x..x..x.
+snare: ..g...g...g...g.
+perc: AxxxAxxxAxxxAxxx
+
+name: Samba Congas
+genre: SAMBA
+steps: 16
+kick: g...A...g...A...
+conga: ..x...x...x...x.
+rim: .x.x.xx.x.xx.x.x
+perc: AxxxAxxxAxxxAxxx
+
+name: Samba Cruzado
+genre: SAMBA
+steps: 16
+kick: x.....x.x.....x.
+snare: gggAgggAgggAgggA
+rim: .x.x.xx.x.xx.x.x
+
+name: Escola Break
+genre: SAMBA
+steps: 16
+kick: g...A...g...A...
+snare: x...x...x...x...
+cowbell: x.x.x.x.x.x.x.x.
+
+name: Samba Funk
+genre: SAMBA
+steps: 16
+kick: x..x..x.x..x..x.
+snare: gggAgggAgggAgggA
+perc: AxxxAxxxAxxxAxxx
+
+name: Marcha Enredo
+genre: SAMBA
+steps: 16
+kick: g...A...g...A...
+snare: gggAgggAgggAgggA
+cowbell: x.x.x.x.x.x.x.x.
+perc: AxxxAxxxAxxxAxxx
+
+name: Agogo Pattern
+genre: SAMBA
+steps: 16
+cowbell: x..x..x.x..x..x.
+kick: g...A...g...A...
+
+name: Samba Shaker
+genre: SAMBA
+steps: 16
+perc: AxxxAxxxAxxxAxxx
+kick: g...A...g...A...
+
+name: Partido Alto
+genre: SAMBA
+steps: 32
+kick: ....x.......x.......x.......x...
+rim: ....x.....x.....x.....x.....x...
+snare: gggAgggAgggAgggAgggAgggAgggAgggA
+perc: AxxxAxxxAxxxAxxxAxxxAxxxAxxxAxxx
+
+name: Partido Sparse
+genre: SAMBA
+steps: 32
+kick: ....x.......x.......x.......x...
+rim: ....x.....x.....x.....x.....x...
+
+name: Samba 2-Bar
+genre: SAMBA
+steps: 32
+kick: g...A...g...A...g...A...g...A...
+snare: gggAgggAgggAgggAgggAgggAgggAgggA
+rim: .x.x.xx.x.xx.x.x.x.x.xx.x.xx.x.x
+perc: AxxxAxxxAxxxAxxxAxxxAxxxAxxxAxxx
+
+name: Son Clave 3-2
+genre: LATIN
+steps: 32
+rim: x.....x.....x.......x...x.......
+
+name: Son Clave 2-3
+genre: LATIN
+steps: 32
+rim: ....x...x.......x.....x.....x...
+
+name: Rumba Clave 3-2
+genre: LATIN
+steps: 32
+rim: x.....x.......x.....x...x.......
+
+name: Rumba Clave 2-3
+genre: LATIN
+steps: 32
+rim: ....x...x.......x.....x.......x.
+
+name: Son Montuno 3-2
+genre: LATIN
+steps: 32
+rim: x.....x.....x.......x...x.......
+conga: g.g.x.AAg.g.x.AAg.g.x.AAg.g.x.AA
+cowbell: x...x...x...x.x.x...x...x...x.x.
+kick: ......x.....x.........x.....x...
+perc: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Son Montuno 2-3
+genre: LATIN
+steps: 32
+rim: ....x...x.......x.....x.....x...
+conga: g.g.x.AAg.g.x.AAg.g.x.AAg.g.x.AA
+cowbell: x...x...x...x.x.x...x...x...x.x.
+kick: ......x.....x.........x.....x...
+
+name: Cascara 2-3
+genre: LATIN
+steps: 32
+rim: ....x...x.......x.....x.....x...
+perc: x...x.x...x...x.x...x.x...x...x.
+conga: g.g.x.AAg.g.x.AAg.g.x.AAg.g.x.AA
+
+name: Cascara 3-2
+genre: LATIN
+steps: 32
+rim: x.....x.....x.......x...x.......
+perc: x...x.x...x...x.x...x.x...x...x.
+
+name: Mambo 2-3
+genre: LATIN
+steps: 32
+rim: ....x...x.......x.....x.....x...
+cowbell: A.x.A.x.A.x.A.x.A.x.A.x.A.x.A.x.
+conga: g.g.x.AAg.g.x.AAg.g.x.AAg.g.x.AA
+kick: ......x.....x.........x.....x...
+tom: ............x...............x...
+
+name: Cha-Cha-Cha
+genre: LATIN
+steps: 16
+cowbell: x...x...x...x.x.
+conga: g.g.x.AAg.g.x.AA
+perc: x.x.x.x.x.x.x.x.
+
+name: Cha-Cha Simple
+genre: LATIN
+steps: 16
+cowbell: x...x...x...x.x.
+conga: g.g.x.AAg.g.x.AA
+
+name: Songo
+genre: LATIN
+steps: 32
+rim: ....x...x.......x.....x.....x...
+conga: g.g.x.AAg.g.x.AAg.g.x.AAg.g.x.AA
+kick: ......x.......x.......x.......x.
+snare: ......A.......A.......A.......A.
+perc: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Guaguanco 3-2
+genre: LATIN
+steps: 32
+rim: x.....x.......x.....x...x.......
+perc: x...x.x...x...x.x...x.x...x...x.
+conga: g.g.x.AAg.g.x.AAg.g.x.AAg.g.x.AA
+
+name: Guaguanco 2-3
+genre: LATIN
+steps: 32
+rim: ....x...x.......x.....x.......x.
+perc: x...x.x...x...x.x...x.x...x...x.
+conga: g.g.x.AAg.g.x.AAg.g.x.AAg.g.x.AA
+
+name: Conga Tumbao
+genre: LATIN
+steps: 16
+conga: g.g.x.AAg.g.x.AA
+rim: x..x..x...x.x...
+
+name: Bongo Martillo
+genre: LATIN
+steps: 16
+perc: x.x.A.x.x.x.A.x.
+rim: x..x..x...x.x...
+
+name: Mambo Bell
+genre: LATIN
+steps: 16
+cowbell: A.x.A.x.A.x.A.x.
+conga: g.g.x.AAg.g.x.AA
+
+name: Bolero
+genre: LATIN
+steps: 16
+rim: x..x..x...x.x...
+conga: g.g.x.AAg.g.x.AA
+perc: x.x.x.x.x.x.x.x.
+kick: x.......x.......
+
+name: Timbale Casc 3-2
+genre: LATIN
+steps: 32
+perc: x...x.x...x...x.x...x.x...x...x.
+rim: x.....x.....x.......x...x.......
+cowbell: x...x...x...x.x.x...x...x...x.x.

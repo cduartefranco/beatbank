@@ -1,0 +1,448 @@
+# Beat Bank — Reggae, Afrobeat / Afro-Cuban, Calypso / Soca
+
+name: One Drop
+genre: REGGAE
+steps: 16
+kick: ........x.......
+rim: ........x.......
+ch: x.x.x.x.x.x.x.x.
+
+name: One Drop Skank
+genre: REGGAE
+steps: 16
+kick: ........x.......
+rim: ........x.......
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: One Drop Ride
+genre: REGGAE
+steps: 16
+kick: ........x.......
+rim: ........x.......
+ride: x.x.x.x.x.x.x.x.
+
+name: Steppers
+genre: REGGAE
+steps: 16
+kick: x...x...x...x...
+rim: ........x.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Steppers Back
+genre: REGGAE
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Rockers
+genre: REGGAE
+steps: 16
+kick: x.......x.......
+rim: ........x.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Rockers Militnt
+genre: REGGAE
+steps: 16
+kick: x.......x.......
+rim: ........x.......
+tom: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Rocksteady
+genre: REGGAE
+steps: 16
+kick: x.......x.......
+rim: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Ska
+genre: REGGAE
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Ska Offbeat
+genre: REGGAE
+steps: 16
+kick: x...x...x...x...
+rim: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Ska Jump
+genre: REGGAE
+steps: 16
+kick: x...x...x...x...
+snare: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Flying Cymbal
+genre: REGGAE
+steps: 16
+kick: x...x...x...x...
+snare: ........x.......
+ch: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Dub One Drop
+genre: REGGAE
+steps: 16
+kick: ........x.......
+rim: ........x.......
+oh: ..x...x...x...x.
+
+name: Dub Steppers
+genre: REGGAE
+steps: 16
+kick: x...x...x...x...
+rim: ........x.......
+oh: ..x...x...x...x.
+
+name: Bubble Hat
+genre: REGGAE
+steps: 16
+kick: ........x.......
+rim: ........x.......
+ch: xxxxxxxxxxxxxxxx
+
+name: Dancehall
+genre: REGGAE
+steps: 16
+kick: x...x...x...x...
+snare: ........x.......
+clap: ........x.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Nyabinghi
+genre: REGGAE
+steps: 16
+kick: x..x....x..x....
+tom: ....x.......x...
+rim: ........x.......
+
+name: One Drop Pickup
+genre: REGGAE
+steps: 16
+kick: ......x.x.......
+rim: ........x.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Rocksteady Kick
+genre: REGGAE
+steps: 16
+kick: x.......x.x.....
+rim: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Zion Steppers
+genre: REGGAE
+steps: 32
+kick: x...x...x...x...x...x...x...x...
+rim: ........x...............x.......
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Tony Allen I
+genre: AFRO
+steps: 16
+kick: x....x..x....x..
+snare: ...g..A..g..A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Tony Allen II
+genre: AFRO
+steps: 16
+kick: x..x..x..x..x...
+snare: ....A..g....A..g
+ch: AxxxAxxxAxxxAxxx
+rim: ..x...x...x...x.
+
+name: Afrobeat Cowbll
+genre: AFRO
+steps: 16
+kick: x...x...x...x...
+cowbell: x..x..x...x.x...
+conga: ..x.x...x.x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Afrobeat Shaker
+genre: AFRO
+steps: 16
+kick: x....x..x....x..
+snare: ...g..A..g..A...
+rim: ..x...x...x...x.
+perc: xxxxxxxxxxxxxxxx
+
+name: Fela Zombie
+genre: AFRO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+cowbell: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Afro Kick 32
+genre: AFRO
+steps: 32
+kick: x....x..x....x..x....x..x....x..
+snare: ...g..A..g..A.....A..g..A..g....
+cowbell: x..x..x...x.x...x..x..x...x.x...
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Afro Son 3-2
+genre: AFRO
+steps: 16
+kick: x.......x.......
+rim: x..x..x...x.x...
+conga: ..x.x...x.x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Afro Son 2-3
+genre: AFRO
+steps: 16
+kick: x.......x.......
+rim: ..x.x...x..x..x.
+conga: x.x.x...x.x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Rumba Clave
+genre: AFRO
+steps: 16
+kick: x.......x.......
+rim: x..x...x..x.x...
+conga: ..x.x...x.x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Cascara
+genre: AFRO
+steps: 16
+kick: x.......x.......
+perc: x.xx.x.x.xx.x.x.
+rim: x..x..x...x.x...
+
+name: Afro Tumbao
+genre: AFRO
+steps: 16
+kick: x...x...x...x...
+conga: g.gxg.gxg.gxg.gx
+ch: x.x.x.x.x.x.x.x.
+
+name: Afro Mambo
+genre: AFRO
+steps: 16
+kick: ....x..x....x..x
+cowbell: x.x.x.x.x.x.x.x.
+conga: g.gxg.gxg.gxg.gx
+rim: x..x..x...x.x...
+
+name: Highlife I
+genre: AFRO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+cowbell: x..x..x...x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Highlife II
+genre: AFRO
+steps: 16
+kick: x..x.x..x..x.x..
+snare: ....x.......x...
+perc: xxxxxxxxxxxxxxxx
+
+name: Afrobeat Ride
+genre: AFRO
+steps: 16
+kick: x....x..x....x..
+snare: ...g..A..g..A...
+cowbell: ..x...x...x...x.
+ride: x.x.x.x.x.x.x.x.
+
+name: Afro Perc Web
+genre: AFRO
+steps: 32
+kick: x....x..x....x..x....x..x....x..
+rim: x..x..x...x.x...x..x..x...x.x...
+conga: ..x.x...x.x.x.....x.x...x.x.x...
+perc: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: Guaguanco
+genre: AFRO
+steps: 16
+rim: x..x...x..x.x...
+conga: ..gx.gx.g.gx.gx.
+perc: x.x.x.x.x.x.x.x.
+
+name: Afrobeat Break
+genre: AFRO
+steps: 16
+kick: x.......x..x....
+snare: ....A.......A...
+cowbell: x..x..x...x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Afro Songo
+genre: AFRO
+steps: 16
+kick: ....x..x....x..x
+rim: ..x.x...x..x..x.
+conga: ..x.x...x.x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Mozambique
+genre: AFRO
+steps: 16
+kick: x.......x.......
+cowbell: x.xx.xx.x.xx.xx.
+conga: ..x.x...x.x.x...
+snare: ....x.......x...
+
+name: Soca Basic
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Soca Offbeat
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ch: ..x...x...x...x.
+
+name: Soca Open Hat
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Power Soca
+genre: CALYPSO
+steps: 16
+kick: x.x.x.x.x.x.x.x.
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+
+name: Groovy Soca
+genre: CALYPSO
+steps: 16
+kick: x...x...x.......
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Calypso Classic
+genre: CALYPSO
+steps: 16
+kick: x.....x.x.......
+snare: ....x.......x...
+cowbell: x.xx.x.x.xx.x.x.
+ch: ..x...x...x...x.
+
+name: Calypso Iron
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+cowbell: x.xx.xx.x.xx.xx.
+
+name: Soca Cowbell
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+cowbell: x.x.x.x.x.x.x.x.
+ch: ..x...x...x...x.
+
+name: Chutney Soca
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+conga: x.xx.x.xx.xx.x.x
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Ragga Soca
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+snare: ........x.......
+clap: ........x.......
+ch: xxxxxxxxxxxxxxxx
+
+name: Bacchanal
+genre: CALYPSO
+steps: 32
+kick: x...x...x...x...x...x...x...x...
+snare: ....x.......x.......x.......x.x.
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+cowbell: x.xx.x.x.xx.x.x.x.xx.x.x.xx.x.x.
+
+name: Steelband Kaiso
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+cowbell: x..x..x...x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Soca Break
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+snare: ....x...x...x...
+ch: ..x...x...x...x.
+
+name: Calypso Conga
+genre: CALYPSO
+steps: 16
+conga: x.x.xx.x.x.xx.x.
+kick: x.....x.x.......
+snare: ....x.......x...
+cowbell: x.x.x.x.x.x.x.x.
+
+name: Bouyon
+genre: CALYPSO
+steps: 16
+kick: x.x.x.x.x.x.x.x.
+snare: ....x.......x...
+cowbell: x..x..x...x.x...
+ch: xxxxxxxxxxxxxxxx
+
+name: Soca Clap
+genre: CALYPSO
+steps: 16
+kick: x...x...x...x...
+clap: ....x.......x...
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Calypso Road
+genre: CALYPSO
+steps: 16
+kick: x..x..x.x..x..x.
+snare: ....x.......x...
+cowbell: x.xx.xx.x.xx.xx.
+ch: ..x...x...x...x.
+
+name: Soca Halftime
+genre: CALYPSO
+steps: 16
+kick: x.......x.......
+snare: ........x.......
+ch: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Calypso 32
+genre: CALYPSO
+steps: 32
+kick: x.....x.x.......x.....x.x.......
+snare: ....x.......x.......x.......x...
+cowbell: x.xx.xx.x.xx.xx.x.xx.xx.x.xx.xx.
+ch: ..x...x...x...x...x...x...x...x.

@@ -1,0 +1,476 @@
+# Beat Bank — House, Techno, Electro
+
+name: Classic House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....A.......A...
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Deep House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....g.......g...
+oh: ..x...x...x...x.
+rim: ...x...x...x...x
+
+name: Jackin House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....A.......A...
+snare: x...x...x.......
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+perc: ..........x...x.
+
+name: Tech House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+rim: ......x.......x.
+oh: ..............x.
+
+name: Acid House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+
+name: Chicago House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....A.......A...
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+cowbell: ...x...x...x...x
+
+name: Disco House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+oh: ..x...x...x...x.
+ride: x.x.x.x.x.x.x.x.
+
+name: Funky House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+cowbell: ..x...x...x...x.
+conga: ...x.x.....x.x..
+
+name: Soulful House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+ride: x.x.x.x.x.x.x.x.
+oh: ..............x.
+conga: ...x...x...x...x
+
+name: Afro House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+conga: x.xx.x.xx.x.xx.x
+perc: ..x...x...x...x.
+oh: ..............x.
+
+name: Minimal House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+oh: ..x...x...x...x.
+rim: ....x.......x...
+
+name: Rolling Deep
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+oh: ..x...x...x...x.
+ch: gxgxgxgxgxgxgxgx
+
+name: Hard House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....A.......A...
+oh: ..A...A...A...A.
+ch: x.x.x.x.x.x.x.x.
+crash: x...............
+
+name: French House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+perc: x.x.x.x.x.x.x.x.
+
+name: Piano House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....A.......A...
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+perc: ...x...x...x...x
+
+name: Latin House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+conga: ..x.x..x..x.x..x
+cowbell: x..x..x...x.x...
+oh: ..............x.
+
+name: Bumpy House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+ch: x.xxx.xxx.xxx.xx
+oh: ..............x.
+rim: ......x.......x.
+
+name: Deep 2-Bar
+genre: HOUSE
+steps: 32
+kick: x...x...x...x...x...x...x...x...
+clap: ....x.......x.......x.......x...
+oh: ..x...x...x...x...............x.
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Prog House
+genre: HOUSE
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+oh: ..x...x...x...x.
+ch: xxxxxxxxxxxxxxxx
+ride: ....x.......x...
+
+name: Driving Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+oh: ..x...x...x...x.
+ch: xxxxxxxxxxxxxxxx
+
+name: Peak Time
+genre: TECHNO
+steps: 16
+kick: A...A...A...A...
+clap: ....A.......A...
+oh: ..A...A...A...A.
+ch: xxxxxxxxxxxxxxxx
+crash: x...............
+
+name: Detroit Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+ride: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+rim: x..x..x...x.x...
+
+name: Minimal Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+rim: ......x.......x.
+oh: ..............x.
+ch: ..g...g...g...g.
+
+name: Dub Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+oh: ..x...x...x...x.
+rim: ....x.......x...
+
+name: Rolling 909
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+oh: ..x...x...x...x.
+ch: xAxxxAxxxAxxxAxx
+ride: ....x.......x...
+
+name: Hard Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+oh: ..A...A...A...A.
+ch: xxxxxxxxxxxxxxxx
+clap: ....A.......A...
+
+name: Acid Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+rim: ......x.......x.
+
+name: Industrial
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+perc: ..x...x...x...x.
+rim: x...x...x...x...
+crash: ........x.......
+
+name: Tribal Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+conga: x.xx.x.xx.x.xx.x
+perc: ..x...x...x...x.
+oh: ..............x.
+
+name: Berlin Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+rim: ....x.......x...
+
+name: Melodic Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+oh: ..x...x...x...x.
+ch: xxxxxxxxxxxxxxxx
+perc: ...x...x...x...x
+
+name: Deep Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+oh: ..x...x...x...x.
+rim: ....x.......x...
+conga: ...x...x...x...x
+
+name: Groove Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+rim: ......x.......x.
+ch: xxxxxxxxxxxxxxxx
+oh: ..............x.
+conga: ...x.x.....x.x..
+
+name: Warehouse
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+clap: ....A.......A...
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+ride: x.x.x.x.x.x.x.x.
+
+name: 909 Techno
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+oh: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+cowbell: ..............x.
+
+name: Detroit Ride
+genre: TECHNO
+steps: 16
+kick: A...x...x...x...
+clap: ....x.......x...
+ride: x.xAx.xAx.xAx.xA
+rim: x..x..x...x.x...
+
+name: Rolling 2-Bar
+genre: TECHNO
+steps: 32
+kick: x...x...x...x...x...x...x...x...
+clap: ....x.......x.......x.......x...
+oh: ..x...x...x...x...x...x...x...x.
+ch: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: Dub Sparse
+genre: TECHNO
+steps: 32
+kick: x...x...x...x...x...x...x...x...
+rim: ..............x...............x.
+oh: ..............x...............x.
+
+name: Planet Rock
+genre: ELECTRO
+steps: 16
+kick: x.....x...x...x.
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..............x.
+cowbell: x..x..x...x.x...
+tom: ............x.x.
+
+name: Clear
+genre: ELECTRO
+steps: 16
+kick: x..x....x..x....
+snare: ....x.......x...
+ch: xAxxxAxxxAxxxAxx
+oh: ..............x.
+
+name: Electro Funk
+genre: ELECTRO
+steps: 16
+kick: x..x..x...x..x..
+clap: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+
+name: Miami Bass
+genre: ELECTRO
+steps: 16
+kick: x......x....x..x
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+cowbell: x.x.x.x.x.x.x.x.
+
+name: Freestyle
+genre: ELECTRO
+steps: 16
+kick: x.....xx..x.....
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..............x.
+clap: ....x.......x...
+
+name: Drexciya
+genre: ELECTRO
+steps: 16
+kick: x..x..x...x..x..
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+rim: x..x..x...x.x...
+
+name: 808 Electro
+genre: ELECTRO
+steps: 16
+kick: x.....x...x...x.
+clap: ....x.......x...
+ch: xAxxxAxxxAxxxAxx
+oh: ..............x.
+cowbell: ...x...x...x...x
+
+name: Cybotron
+genre: ELECTRO
+steps: 16
+kick: x..x....x..x....
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+tom: ............x..x
+cowbell: x..x..x...x.x...
+
+name: Newcleus
+genre: ELECTRO
+steps: 16
+kick: x......x....x..x
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+
+name: Mantronix
+genre: ELECTRO
+steps: 16
+kick: x..x..x..x..x..x
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..............x.
+
+name: Detroit Elec
+genre: ELECTRO
+steps: 16
+kick: x.....x...x...x.
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+conga: ..x.x..x..x.x..x
+oh: ..............x.
+
+name: Techno Bass
+genre: ELECTRO
+steps: 16
+kick: x..x..x...x..x..
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+cowbell: x.x.x.x.x.x.x.x.
+
+name: Breakbeat El
+genre: ELECTRO
+steps: 16
+kick: x..x....x......x
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+rim: ..........x.....
+
+name: Cowbell Elec
+genre: ELECTRO
+steps: 16
+kick: x.....x...x...x.
+snare: ....x.......x...
+cowbell: x..x..x...x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Conga Elec
+genre: ELECTRO
+steps: 16
+kick: x..x..x...x..x..
+snare: ....x.......x...
+conga: x.xx.x.xx.x.xx.x
+ch: xxxxxxxxxxxxxxxx
+
+name: Double Kick
+genre: ELECTRO
+steps: 16
+kick: x.....xx..x...xx
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+oh: ..............x.
+
+name: Tom Electro
+genre: ELECTRO
+steps: 16
+kick: x......x....x...
+snare: ....x.......x...
+tom: ........x.x.x.xx
+ch: x.x.x.x.x.x.x.x.
+
+name: Robot Elec
+genre: ELECTRO
+steps: 32
+kick: x.....x...x...x.x.....x...x...x.
+snare: ....x.......x.......x.......x...
+ch: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+cowbell: x..x..x...x.x...x..x..x...x.x...

@@ -1,0 +1,430 @@
+# Beat Bank — Rock, Gospel, Country
+
+name: Basic Backbeat
+genre: ROCK
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Driving 8ths
+genre: ROCK
+steps: 16
+kick: x.....x.x.....x.
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Four-Floor Rock
+genre: ROCK
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Half-Time Rock
+genre: ROCK
+steps: 16
+kick: x.........x.....
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: 16th Hat Rock
+genre: ROCK
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: Bo Diddley
+genre: ROCK
+steps: 32
+kick: x.....x.....x.......x...x.......
+tom: x.....x.....x.......x...x.......
+snare: ....A.......A.......A.......A...
+
+name: Tom Rock
+genre: ROCK
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+tom: x.x.x.x.x.x.x.x.
+
+name: Ballad X-Stick
+genre: ROCK
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Ride Groove
+genre: ROCK
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ride: x.x.x.x.x.x.x.x.
+
+name: Open Hat Rock
+genre: ROCK
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Punk Rock
+genre: ROCK
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+crash: x...............
+
+name: Anthem Rock
+genre: ROCK
+steps: 16
+kick: x......x........
+snare: ....A.......A...
+ride: x.x.x.x.x.x.x.x.
+crash: x...............
+
+name: Funk Rock
+genre: ROCK
+steps: 16
+kick: x......x..x.....
+snare: ...gA..g...gA...
+ch: xxxxxxxxxxxxxxxx
+
+name: Purdie Shuffle
+genre: ROCK
+steps: 32
+kick: x......x........x......x........
+snare: ...g...gA..g...g...g...gA..g...g
+ch: x..xx..xx..xx..xx..xx..xx..xx..x
+
+name: Rosanna
+genre: ROCK
+steps: 32
+kick: x.........x....xx.........x....x
+snare: ...g.g.gA..g.g.g...g.g.gA..g.g.g
+ch: x..xx..xx..xx..xx..xx..xx..xx..x
+
+name: Motown Rock
+genre: ROCK
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+clap: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Half-Time Funk
+genre: ROCK
+steps: 16
+kick: x......x........
+snare: ...g....A..g...g
+ch: xxxxxxxxxxxxxxxx
+
+name: Blues Shuffle
+genre: ROCK
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x..xx..xx..xx..x
+
+name: Hard Rock
+genre: ROCK
+steps: 16
+kick: x.x.....x.x.....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Ride Shuffle
+genre: ROCK
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ride: x..xx..xx..xx..x
+
+name: Gospel Pocket
+genre: GOSPEL
+steps: 16
+kick: x.....x...x.....
+snare: ....A..g....A..g
+ch: xxxxxxxxxxxxxxxx
+
+name: Gospel Shuffle
+genre: GOSPEL
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x..xx..xx..xx..x
+
+name: 6/8 Gospel
+genre: GOSPEL
+steps: 16
+kick: x.......x.......
+rim: ........A.......
+ch: x..xx..xx..xx..x
+
+name: Gospel Ballad
+genre: GOSPEL
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Praise Break
+genre: GOSPEL
+steps: 32
+kick: x.......x.......x.......x.......
+snare: ....A.......A.......A.......A...
+ch: x..xx..xx..xx..xx..xx..xx..xx..x
+crash: x...............................
+
+name: Half-Time Gospel
+genre: GOSPEL
+steps: 16
+kick: x......x........
+snare: ...g....A..g...g
+ch: xxxxxxxxxxxxxxxx
+
+name: Gospel Two-Step
+genre: GOSPEL
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Gospel Swing
+genre: GOSPEL
+steps: 32
+ride: x..xx..xx..xx..xx..xx..xx..xx..x
+kick: x...x...x...x...x...x...x...x...
+rim: ....A.......A.......A.......A...
+
+name: Neo-Soul Gospel
+genre: GOSPEL
+steps: 16
+kick: x.....x...x.....
+snare: ..g.A..g..g.A..g
+oh: ......x.......x.
+ch: xxxxxxxxxxxxxxxx
+
+name: 12/8 Gospel
+genre: GOSPEL
+steps: 32
+ride: x..xx..xx..xx..xx..xx..xx..xx..x
+kick: x.......x.......x.......x.......
+rim: ....A.......A.......A.......A...
+
+name: Worship Groove
+genre: GOSPEL
+steps: 16
+kick: x.........x.....
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Gospel Funk
+genre: GOSPEL
+steps: 16
+kick: x..x......x.....
+snare: ....A..g....A..g
+ch: xxxxxxxxxxxxxxxx
+
+name: Gospel Chops
+genre: GOSPEL
+steps: 16
+kick: x...x...x...x...
+snare: ..g.A.g...g.A.g.
+ch: xxxxxxxxxxxxxxxx
+
+name: Shout Music
+genre: GOSPEL
+steps: 32
+kick: x...x...x...x...x...x...x...x...
+snare: ....A.......A.......A.......A...
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+crash: x...............................
+
+name: X-Stick Pocket
+genre: GOSPEL
+steps: 16
+kick: x.....x...x.....
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Ride Pocket
+genre: GOSPEL
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ride: x.x.x.x.x.x.x.x.
+
+name: Gospel X-Shuffle
+genre: GOSPEL
+steps: 32
+ch: x..xx..xx..xx..xx..xx..xx..xx..x
+rim: ........A...............A.......
+snare: ...g.......g...g...g.......g...g
+
+name: Praise Shuffle
+genre: GOSPEL
+steps: 16
+kick: x.....x...x.....
+snare: ....A..g....A..g
+ch: x..xx..xx..xx..x
+
+name: Slow Gospel
+genre: GOSPEL
+steps: 16
+kick: x..........x....
+rim: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Contemp Gospel
+genre: GOSPEL
+steps: 16
+kick: x.....x..x......
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+oh: ..............x.
+
+name: Train Beat
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+snare: ggggAgggggggAggg
+
+name: Train 4-Floor
+genre: COUNTRY
+steps: 16
+kick: x...x...x...x...
+snare: ggggAgggggggAggg
+
+name: Two-Step
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Country Shuffle
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x..xx..xx..xx..x
+
+name: Boom-Chick
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: ....x.......x...
+
+name: Honky-Tonk
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ch: x..xx..xx..xx..x
+
+name: Country Ballad
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Country Waltz
+genre: COUNTRY
+steps: 16
+kick: x...............
+rim: ....A...A.......
+ch: x.x.x.x.x.x.....
+
+name: Bakersfield
+genre: COUNTRY
+steps: 16
+kick: x.......x.x.....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Rockabilly
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+snare: ggggAgggggggAggg
+ch: x..xx..xx..xx..x
+
+name: Bluegrass
+genre: COUNTRY
+steps: 32
+kick: x.......x.......x.......x.......
+snare: ....A.......A.......A.......A...
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Nashville
+genre: COUNTRY
+steps: 16
+kick: x.....x...x.....
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: Country Rock
+genre: COUNTRY
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+crash: x...............
+
+name: Cajun 2-Step
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+perc: ..x...x...x...x.
+
+name: Waltz Shuffle
+genre: COUNTRY
+steps: 16
+kick: x...............
+rim: ....A...A.......
+ch: x..xx..xx..x....
+
+name: Cut-Time Ctry
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Country Pop
+genre: COUNTRY
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Outlaw
+genre: COUNTRY
+steps: 16
+kick: x.........x.....
+rim: ....A.......A...
+ch: x..xx..xx..xx..x
+
+name: Freight Train
+genre: COUNTRY
+steps: 32
+kick: x...x...x...x...x...x...x...x...
+snare: ggggAgggggggAgggggggAgggggggAggg
+
+name: Western Swing
+genre: COUNTRY
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ride: x..xx..xx..xx..x

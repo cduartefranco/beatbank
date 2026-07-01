@@ -3,7 +3,7 @@
 A library of **standard drum patterns** for [Schwung](https://github.com/charlesvestal/schwung) on Ableton Move.
 
 No generation, no randomness, no fills. Beat Bank is a chainable `midi_fx`
-drum sequencer for Schwung's Signal Chain. It loops one of ~100 hand-authored,
+drum sequencer for Schwung's Signal Chain. It loops one of ~450 hand-authored,
 canonical drum grids and **plays the sound generator in the same slot** — e.g.
 an SF2 drum kit — using General MIDI drum notes. Same idea as
 [Super Arp](https://github.com/handcraftedcc/schwung-superarp): the module
@@ -45,10 +45,12 @@ or anywhere you can drop a text file.
 
 ## Genres included
 
-~100 patterns across: hip-hop / boom-bap, lofi, trap, trip-hop · house, techno,
-electro, disco, UK garage · drum & bass, jungle, breakbeat, dubstep · funk
-(Funky Drummer, Cold Sweat, Purdie shuffle…), soul/Motown, rock/pop, gospel,
-country · bossa nova, samba, Latin, Afrobeat, reggae/dub, calypso.
+~450 patterns across 24 genres: hip-hop / boom-bap, lofi, trap, trip-hop ·
+house, techno, electro, disco, UK garage · drum & bass, jungle, breakbeat,
+dubstep · funk (Funky Drummer, Cold Sweat, Purdie shuffle…), soul/Motown,
+rock/pop, gospel, country · bossa nova, samba, Latin, Afrobeat, reggae/dub,
+calypso. Browse them genre-first: jog cycles within a genre, Left/Right jump
+between genres.
 
 ## Setup & use
 

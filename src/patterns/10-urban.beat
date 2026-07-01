@@ -1,0 +1,410 @@
+# Beat Bank — Hip-Hop, Lofi, Trap
+
+name: Boom Bap 101
+genre: HIPHOP
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: BoomBap Ghost
+genre: HIPHOP
+steps: 16
+kick: x.....g.x.....g.
+snare: ....A...g...A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Boom Bap 16th
+genre: HIPHOP
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: DoubleKick BB
+genre: HIPHOP
+steps: 16
+kick: x.x.....x.x.....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Impeach Prez
+genre: HIPHOP
+steps: 16
+kick: x.......x..x....
+snare: ....A...g...A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Funky Drummer
+genre: HIPHOP
+steps: 16
+kick: x..x....x.......
+snare: ....A.g.g...A.g.
+ch: xxxxxxx.xxxxxxxx
+oh: .......x........
+
+name: Amen Nod
+genre: HIPHOP
+steps: 16
+kick: x.......x.x.....
+snare: ....A.......A.x.
+ride: x.x.x.x.x.x.x.x.
+crash: x...............
+
+name: Think Break
+genre: HIPHOP
+steps: 16
+kick: x..x....x..x....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: NY Boom Bap
+genre: HIPHOP
+steps: 16
+kick: x.....x.x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+rim: ..............g.
+
+name: Wu Hard
+genre: HIPHOP
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x...x...x...x...
+
+name: Pete Rock
+genre: HIPHOP
+steps: 16
+kick: x....x..x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+oh: ......x.......x.
+
+name: Premier Chop
+genre: HIPHOP
+steps: 16
+kick: x......xx......x
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Dilla Straight
+genre: HIPHOP
+steps: 16
+kick: x..g....x..g..g.
+snare: ....A.......A..g
+ch: x.x.x.x.x.x.x.x.
+
+name: Half Boom
+genre: HIPHOP
+steps: 16
+kick: x...........x...
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: CrossStick BB
+genre: HIPHOP
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Busy Hats BB
+genre: HIPHOP
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: AxxxAxxxAxxxAxxx
+
+name: Rim & Ride
+genre: HIPHOP
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ride: x.x.x.x.x.x.x.x.
+
+name: SubKick BB
+genre: HIPHOP
+steps: 16
+kick: x......x..x.....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Clap Snare BB
+genre: HIPHOP
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+clap: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Cymbal BB
+genre: HIPHOP
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ride: x.x.x.x.x.x.x.x.
+crash: x...............
+
+name: Lofi Basic
+genre: LOFI
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Ghost
+genre: LOFI
+steps: 16
+kick: x......gx......g
+snare: ....A..g....A..g
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Rim
+genre: LOFI
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Jazzy
+genre: LOFI
+steps: 16
+kick: x.....g.x.......
+snare: ....A.g.....A.g.
+ride: x.x.x.x.x.x.x.x.
+
+name: Lofi BoomBap
+genre: LOFI
+steps: 16
+kick: x..g....x..g....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Halftime
+genre: LOFI
+steps: 16
+kick: x...........x...
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Busy
+genre: LOFI
+steps: 16
+kick: x..g.g..x..g.g..
+snare: ..g.A..g..g.A..g
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Minimal
+genre: LOFI
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x...x...x...x...
+
+name: Lofi Nujabes
+genre: LOFI
+steps: 16
+kick: x.....x.x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+perc: ..x...x...x...x.
+
+name: Lofi Dilla
+genre: LOFI
+steps: 16
+kick: x..g....x.g.....
+snare: ....A..g....A.g.
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Shaker
+genre: LOFI
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+perc: xxxxxxxxxxxxxxxx
+ch: x...x...x...x...
+
+name: Lofi Tape
+genre: LOFI
+steps: 16
+kick: x......gx.......
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi OpenHat
+genre: LOFI
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x...
+oh: ..............x.
+
+name: Lofi Conga
+genre: LOFI
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+conga: ..x.x...x.x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi 2Bar
+genre: LOFI
+steps: 32
+kick: x.......x.......x......gx..g....
+snare: ....A.......A.......A..g....A..g
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: Lofi Perc
+genre: LOFI
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+perc: x.x.x.x.x.x.x.x.
+
+name: Lofi Bounce
+genre: LOFI
+steps: 16
+kick: x..x....x..x....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: Lofi Deep
+genre: LOFI
+steps: 16
+kick: x......x..x.....
+rim: ....A.......A...
+ch: x...x...x...x...
+
+name: Trap 101
+genre: TRAP
+steps: 16
+kick: x.........x.....
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Trap Hats16
+genre: TRAP
+steps: 16
+kick: x.........x.....
+clap: ........x.......
+ch: xxxxxxxxxxxxxxxx
+
+name: Trap 808 Sync
+genre: TRAP
+steps: 16
+kick: x....x....x...x.
+clap: ........x.......
+ch: xxxxxxxxxxxxxxxx
+
+name: Trap Migos
+genre: TRAP
+steps: 16
+kick: x.....x...x.....
+clap: ........x.......
+ch: xxx.xxx.xxx.xxx.
+
+name: Trap Metro
+genre: TRAP
+steps: 16
+kick: x.........x.....
+clap: ........x.......
+ch: x.x.x.x.x.x.x...
+oh: ..............x.
+
+name: Trap Luger
+genre: TRAP
+steps: 16
+kick: x...x.....x.x...
+clap: ........x.......
+ch: xxxxxxxxxxxxxxxx
+crash: x...............
+
+name: Trap Roll32
+genre: TRAP
+steps: 32
+kick: x.........x.....x.........x.....
+clap: ........x...............x.......
+ch: x.x.x.x.x.x.xxxxx.x.xxxxx.x.xxxx
+
+name: Trap Drill
+genre: TRAP
+steps: 16
+kick: x.....x.....x..x
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Trap Double
+genre: TRAP
+steps: 16
+kick: x.........x.....
+snare: ....g...A...g...
+ch: xxxxxxxxxxxxxxxx
+
+name: Trap Clap+Snap
+genre: TRAP
+steps: 16
+kick: x.........x.....
+clap: ........x.......
+rim: ........x.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Trap OpenHat
+genre: TRAP
+steps: 16
+kick: x.........x.....
+clap: ........x.......
+ch: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Trap Sparse
+genre: TRAP
+steps: 16
+kick: x...........x...
+clap: ........x.......
+ch: x...x...x...x...
+
+name: Trap Busy808
+genre: TRAP
+steps: 16
+kick: x..x..x..x..x..x
+clap: ........x.......
+ch: xxxxxxxxxxxxxxxx
+
+name: Trap Perc
+genre: TRAP
+steps: 16
+kick: x.........x.....
+clap: ........x.......
+ch: x.x.x.x.x.x.x.x.
+perc: ..x..x..x..x..x.
+
+name: Trap Roll32B
+genre: TRAP
+steps: 32
+kick: x.........x.....x.........x.....
+clap: ........x...............x.......
+ch: x.x.x.x.xxxxxxxxxxxxxxxxxxxxxxxx
+
+name: Trap Festival
+genre: TRAP
+steps: 16
+kick: x.......x.......
+clap: ........x.......
+ch: x.x.x.x.x.x.x.x.
+crash: x.......x.......
+
+name: Trap Cowbell
+genre: TRAP
+steps: 16
+kick: x.........x.....
+clap: ........x.......
+ch: xxxxxxxxxxxxxxxx
+cowbell: ....x.......x...
+
+name: Trap Ride
+genre: TRAP
+steps: 16
+kick: x.........x.....
+clap: ........x.......
+ride: x.x.x.x.x.x.x.x.

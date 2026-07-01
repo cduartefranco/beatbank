@@ -1,0 +1,424 @@
+# Beat Bank — Disco, Funk, Soul
+
+name: Disco Basic
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Disco 16th
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ch: xx.xxx.xxx.xxx.x
+oh: ..x...x...x...x.
+
+name: Disco Clap
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+clap: ....x.......x.x.
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Philly Disco
+genre: DISCO
+steps: 16
+kick: x...x...x...x.x.
+snare: ....x.......x...
+ride: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Hi-NRG
+genre: DISCO
+steps: 16
+kick: x.x.x.x.x.x.x.x.
+clap: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+
+name: Disco Cowbell
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+cowbell: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Disco Tom
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+tom: .......x...x..x.
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Chic Tight
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ch: AxxxAxxxAxxxAxxx
+
+name: Disco Bell
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ride: A...A...A...A...
+oh: ..x...x...x...x.
+
+name: Disco Perc
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+conga: x..x..x.x..x..x.
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Disco Half-Open
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ch: x...x...x...x...
+oh: ..A...A...A...A.
+
+name: Boogie Funk
+genre: DISCO
+steps: 16
+kick: x...x..xx..xx...
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+
+name: Saturday Night
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: ....x......xx...
+ride: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Disco Rim
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+rim: ....x.......x...
+ch: x...x...x...x...
+oh: ..x...x...x...x.
+
+name: Northern Disco
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+clap: ....x.......x...
+perc: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: Nu-Disco
+genre: DISCO
+steps: 16
+kick: x...x...x..x.x..
+snare: ....x.......x...
+clap: ....x.......x...
+ch: xx.xxx.xxx.xxx.x
+oh: ..x...x...x...x.
+
+name: Disco Build
+genre: DISCO
+steps: 16
+kick: x...x...x...x...
+snare: g.g.A.g.g.g.A.g.
+ch: xxxxxxxxxxxxxxxx
+
+name: Disco Two-Bar
+genre: DISCO
+steps: 32
+kick: x...x...x...x...x...x...x...x.x.
+snare: ....x.......x.......x.......x...
+ch: x...x...x...x...x...x...x...x...
+oh: ..x...x...x...x...x...x...x...x.
+
+name: Funky Drmr
+genre: FUNK
+steps: 16
+kick: x..x..x...x.....
+snare: ..g.A..g.g.gA.g.
+ch: xxxxx.xxxxxxx.xx
+oh: .....x.......x..
+
+name: Cold Sweat
+genre: FUNK
+steps: 16
+kick: x.x.....x..x....
+snare: ....A..g.g.g..A.
+ch: xxxxxxxxxxxxxxxx
+
+name: Cissy Strut
+genre: FUNK
+steps: 16
+kick: x..x.....x......
+snare: ......gA....A.A.
+ch: .xx.xx..x.xx.x.x
+
+name: Boogaloo
+genre: FUNK
+steps: 16
+kick: x..x..x.x..x..x.
+snare: ....A..g.g..A.g.
+ch: xxxxxxxxxxxxxxxx
+
+name: Look-Ka Py Py
+genre: FUNK
+steps: 16
+kick: x..x..x..xx.....
+snare: ..g.A..g.g..A.g.
+ch: x.x.x.x.x.x.x.x.
+
+name: Sex Machine
+genre: FUNK
+steps: 16
+kick: x..x.x..x..x.x..
+snare: ....A..g....A..g
+ch: xxxxxxxxxxxxxxxx
+
+name: The Payback
+genre: FUNK
+steps: 16
+kick: x.....x....x....
+snare: ....A.....g.A...
+ch: xxxxxxxxxxxxxxxx
+oh: ..............x.
+
+name: Superstition
+genre: FUNK
+steps: 16
+kick: x..x..x...x..x..
+snare: ....A.......A...
+ch: xx.xxx.xxx.xxx.x
+oh: ..x...x...x...x.
+
+name: Chameleon
+genre: FUNK
+steps: 16
+kick: x...x..x...x.x..
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: Give Up Funk
+genre: FUNK
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+clap: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+
+name: Funk Amen
+genre: FUNK
+steps: 16
+kick: x.x...x.........
+snare: ....x..g..x.x...
+ride: x.x.x.x.x.x.x.x.
+
+name: Funk Basic
+genre: FUNK
+steps: 16
+kick: x...x..x....x...
+snare: ....A..g....A..g
+ch: xxxxxxxxxxxxxxxx
+
+name: Ghost Funk
+genre: FUNK
+steps: 16
+kick: x..x....x..x....
+snare: ggggAg.gggggAg.g
+ch: x.x.x.x.x.x.x.x.
+
+name: Displaced Bkbt
+genre: FUNK
+steps: 16
+kick: x...x...x...x...
+snare: ......A.....g.A.
+ch: xxxxxxxxxxxxxxxx
+
+name: NOLA Funk
+genre: FUNK
+steps: 16
+kick: x.....x....x....
+snare: ....A..g.g..A..g
+rim: x..x..x...x.x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Funk Halftime
+genre: FUNK
+steps: 16
+kick: x.....x...x.....
+snare: ..g..g..A..g..g.
+ch: xxxxxxxxxxxxxxxx
+
+name: Purdie Funk
+genre: FUNK
+steps: 16
+kick: x.x.....x.......
+snare: .gggAgggggggAggg
+ch: x.x.x.x.x.x.x.x.
+
+name: 16th Funk Wkout
+genre: FUNK
+steps: 16
+kick: x..xx..xx..xx..x
+snare: ....A..g....A..g
+ch: xxxxxxxxxxxxxxxx
+
+name: Mother Popcorn
+genre: FUNK
+steps: 16
+kick: x...x.x.x...x.x.
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+oh: ..............x.
+
+name: Motown Backbeat
+genre: SOUL
+steps: 16
+kick: x.......x.......
+snare: ....x.......x...
+perc: x.x.x.x.x.x.x.x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Motown Four
+genre: SOUL
+steps: 16
+kick: x...x...x...x...
+snare: x...x...x...x...
+perc: x.x.x.x.x.x.x.x.
+
+name: Stax Pocket
+genre: SOUL
+steps: 16
+kick: x.......x..x....
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Green Onions
+genre: SOUL
+steps: 16
+kick: x..x....x..x....
+snare: ....x.......x...
+ride: x.x.x.x.x.x.x.x.
+
+name: Soul Cross-Stk
+genre: SOUL
+steps: 16
+kick: x.......x.......
+rim: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Motown Stomp
+genre: SOUL
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+perc: xxxxxxxxxxxxxxxx
+clap: ....x.......x...
+
+name: Ballad Rim
+genre: SOUL
+steps: 16
+kick: x.........x.....
+rim: ........x.......
+ch: x.x.x.x.x.x.x.x.
+
+name: Al Green Groove
+genre: SOUL
+steps: 16
+kick: x..x....x.......
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+oh: ..............x.
+
+name: Hi Records Pkt
+genre: SOUL
+steps: 16
+kick: x...x..x....x...
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+
+name: 60s Soul 8th
+genre: SOUL
+steps: 16
+kick: x......xx.......
+snare: ....x.......x...
+ch: x.x.x.x.x.x.x.x.
+
+name: Northern Soul
+genre: SOUL
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+clap: ....x.......x...
+perc: x.x.x.x.x.x.x.x.
+
+name: Curtis Soul
+genre: SOUL
+steps: 16
+kick: x.....x.x.......
+snare: ....x.......x...
+ch: xxxxxxxxxxxxxxxx
+conga: ..x..x..x..x..x.
+
+name: Tambourine Soul
+genre: SOUL
+steps: 16
+kick: x.......x.......
+snare: ....x.......x...
+perc: ..x...x...x...x.
+ch: x.x.x.x.x.x.x.x.
+
+name: Gospel Soul
+genre: SOUL
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+perc: x.xAx.xAx.xAx.xA
+
+name: Soul Ride
+genre: SOUL
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+ride: A.x.A.x.A.x.A.x.
+
+name: Standing Shadow
+genre: SOUL
+steps: 16
+kick: x...x...x...x...
+snare: ....x.......x...
+tom: x.x.x.x.x.x.x.x.
+perc: ....x.......x...
+
+name: Soul Shuffle
+genre: SOUL
+steps: 16
+kick: x.......x.......
+snare: ....x.......x...
+ch: x..xx..xx..xx..x
+
+name: Cross-Stick 32
+genre: SOUL
+steps: 32
+kick: x.......x.......x.......x....x..
+rim: ....x.......x.......x.......x...
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+perc: ..x...x...x...x...x...x...x...x.
+
+name: Motown Two-Bar
+genre: SOUL
+steps: 32
+kick: x...x...x...x...x...x...x...x.x.
+snare: ....x.......x...x...x...x...x...
+perc: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.

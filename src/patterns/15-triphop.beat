@@ -1,0 +1,417 @@
+# Beat Bank — Trip-Hop, Dubstep, UK Garage
+
+name: TH Basic
+genre: TRIPHOP
+steps: 16
+kick: x.....x.........
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: TH Heartbeat
+genre: TRIPHOP
+steps: 16
+kick: x..x....x..x....
+snare: ....A.......A...
+ch: x...x...x...x...
+
+name: TH Amen
+genre: TRIPHOP
+steps: 32
+kick: x.x.......x.....x.x.......x.....
+snare: ....A..x.x..A..x....A..x.x..A..x
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+crash: x...............x...............
+
+name: TH Funky Drmr
+genre: TRIPHOP
+steps: 16
+kick: x..x....x.x.....
+snare: ..g.A..g..ggA.g.
+ch: xxxxxxx.xxxxxxx.
+oh: .......x.......x
+
+name: TH Levee
+genre: TRIPHOP
+steps: 16
+kick: x.x.....x.x.....
+snare: ....A.......A...
+ch: x...x...x...x...
+
+name: TH Dusty
+genre: TRIPHOP
+steps: 16
+kick: x.....x.x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: TH Boom Bap
+genre: TRIPHOP
+steps: 16
+kick: x.x.......x.....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: TH Ghost Snare
+genre: TRIPHOP
+steps: 16
+kick: x.....x.........
+snare: ..g.A..g..g.A.g.
+ch: x.x.x.x.x.x.x.x.
+
+name: TH Halftime
+genre: TRIPHOP
+steps: 16
+kick: x.....x.....x...
+snare: ........A.......
+ch: x.x.x.x.x.x.x.x.
+
+name: TH 808
+genre: TRIPHOP
+steps: 16
+kick: x......x.x......
+snare: ....A.......A...
+ch: x...x...x...x...
+
+name: TH Sombre
+genre: TRIPHOP
+steps: 16
+kick: x.......x.......
+rim: ....A.......A...
+ch: ..x...x...x...x.
+
+name: TH Rim Groove
+genre: TRIPHOP
+steps: 16
+kick: x.....x.........
+rim: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: TH Jazzy
+genre: TRIPHOP
+steps: 16
+kick: x.....x...x.....
+snare: ....A.......A.g.
+ride: x..xx..xx..xx..x
+
+name: TH Slow Roll
+genre: TRIPHOP
+steps: 16
+kick: x.....x.....x...
+snare: ....A.......A...
+tom: ..............xx
+ch: x.x.x.x.x.x.x.x.
+
+name: TH Broken Kick
+genre: TRIPHOP
+steps: 16
+kick: x..x..x...x..x..
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: TH Sub Thump
+genre: TRIPHOP
+steps: 16
+kick: x.....x.x...x...
+snare: ....A.......A...
+ch: x...x...x...x...
+
+name: TH Downtempo
+genre: TRIPHOP
+steps: 16
+kick: x.......x.......
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+oh: ......x.......x.
+
+name: TH Two Bar
+genre: TRIPHOP
+steps: 32
+kick: x.....x.........x.....x...x.....
+snare: ....A.......A.......A.......A.gg
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+
+name: TH Brk Chop
+genre: TRIPHOP
+steps: 32
+kick: x..x..x...x..x..x..x..x...x..x..
+snare: ..g.A..g..g.A.g...g.A..g..g.A.g.
+ch: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+name: DS Basic
+genre: DUBSTEP
+steps: 16
+kick: x...............
+snare: ........A.......
+ch: ..x...x...x...x.
+
+name: DS Halftime
+genre: DUBSTEP
+steps: 16
+kick: x.........x.....
+snare: ........A.......
+ch: ..x...x...x...x.
+
+name: DS Sub Kick
+genre: DUBSTEP
+steps: 16
+kick: x......x..x.....
+snare: ........A.......
+oh: ..x...x...x...x.
+
+name: DS Offbeat Hats
+genre: DUBSTEP
+steps: 16
+kick: x.........x.....
+snare: ........A.......
+ch: ..x...x...x...x.
+oh: ......x.......x.
+
+name: DS Rolling
+genre: DUBSTEP
+steps: 16
+kick: x.........x.....
+snare: ........A.......
+ch: xxxxxxxxxxxxxxxx
+
+name: DS Skream
+genre: DUBSTEP
+steps: 16
+kick: x.....x...x.....
+snare: ........A.......
+ch: ..x...x...x...x.
+
+name: DS Sparse
+genre: DUBSTEP
+steps: 16
+kick: x...............
+snare: ........A.......
+oh: ....x.......x...
+
+name: DS Clap 3
+genre: DUBSTEP
+steps: 16
+kick: x.........x.....
+clap: ........A.......
+ch: ..x...x...x...x.
+
+name: DS Double Kick
+genre: DUBSTEP
+steps: 16
+kick: x..x......x..x..
+snare: ........A.......
+ch: ..x...x...x...x.
+
+name: DS Reese
+genre: DUBSTEP
+steps: 16
+kick: x............x..
+snare: ........A.......
+oh: ..x...x...x...x.
+
+name: DS Brostep
+genre: DUBSTEP
+steps: 16
+kick: x...x.....x.....
+snare: ........A.......
+clap: ........A...A...
+ch: xxxxxxxxxxxxxxxx
+
+name: DS Minimal
+genre: DUBSTEP
+steps: 16
+kick: x...............
+snare: ........A.......
+rim: ..x...x...x...x.
+
+name: DS Ghost Sub
+genre: DUBSTEP
+steps: 16
+kick: x...g.....x.....
+snare: ........A.......
+ch: ..x...x...x...x.
+
+name: DS Purple
+genre: DUBSTEP
+steps: 16
+kick: x.....x.....x...
+snare: ........A.......
+ch: ..x...x...x...x.
+
+name: DS Wobble
+genre: DUBSTEP
+steps: 16
+kick: x.........x.....
+snare: ........A.......
+oh: ......x.......x.
+
+name: DS Snare Roll
+genre: DUBSTEP
+steps: 32
+kick: x...............x...............
+snare: ........A...............A...xxxx
+ch: ..x...x...x...x...x...x...x...x.
+
+name: DS Two Bar
+genre: DUBSTEP
+steps: 32
+kick: x.........x.....x.........x....x
+snare: ........A...............A.......
+ch: ..x...x...x...x...x...x...x...x.
+
+name: DS Amen Half
+genre: DUBSTEP
+steps: 16
+kick: x..x..x.........
+snare: ........A....g.g
+ch: xxxxxxxxxxxxxxxx
+
+name: DS Deep
+genre: DUBSTEP
+steps: 16
+kick: x.........x.....
+snare: ........A.......
+rim: ..x...x...x...x.
+
+name: GG 2-Step
+genre: GARAGE
+steps: 16
+kick: x..........x....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: GG Skippy
+genre: GARAGE
+steps: 16
+kick: x.....x....x....
+snare: ....A.......A...
+clap: ....A.......A...
+ch: xx.xx.xx.xx.xx.x
+
+name: GG Classic
+genre: GARAGE
+steps: 16
+kick: x..........x....
+snare: ....A.......A...
+ch: x.xxx.x.x.xxx.x.
+oh: ..x...x...x...x.
+
+name: GG Speed Grge
+genre: GARAGE
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+clap: ....A.......A...
+oh: ..x...x...x...x.
+
+name: GG 4x4
+genre: GARAGE
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+ch: ..x...x...x...x.
+oh: ......x.......x.
+
+name: GG Sub Garage
+genre: GARAGE
+steps: 16
+kick: x..........x....
+snare: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+
+name: GG Shuffle
+genre: GARAGE
+steps: 16
+kick: x..........x....
+snare: ....A.......A...
+ch: x..xx..xx..xx..x
+
+name: GG Broken
+genre: GARAGE
+steps: 16
+kick: x.....x....x....
+snare: ....A.....g.A...
+ch: x.x.x.x.x.x.x.x.
+
+name: GG Ghost Snare
+genre: GARAGE
+steps: 16
+kick: x..........x....
+snare: ..g.A..g.g...A.g
+ch: x.x.x.x.x.x.x.x.
+
+name: GG Bassline
+genre: GARAGE
+steps: 16
+kick: x...x...x...x...
+snare: ....A.......A...
+oh: ..x...x...x...x.
+clap: ............A...
+
+name: GG Organ
+genre: GARAGE
+steps: 16
+kick: x..........x....
+snare: ....A.......A...
+ch: x.x.xx.x.x.xx.x.
+oh: ..x...x...x...x.
+
+name: GG Clap Garage
+genre: GARAGE
+steps: 16
+kick: x..........x....
+clap: ....A.......A...
+ch: x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x.
+
+name: GG Rim Skip
+genre: GARAGE
+steps: 16
+kick: x..........x....
+rim: ....A...g...A.g.
+ch: x.x.x.x.x.x.x.x.
+
+name: GG Bouncy
+genre: GARAGE
+steps: 16
+kick: x....x.....x....
+snare: ....A.......A...
+ch: x.xx.x.xx.x.xx.x
+
+name: GG Dark Grge
+genre: GARAGE
+steps: 16
+kick: x..........x....
+snare: ....A.......A...
+rim: ..x...x...x...x.
+oh: ......x.......x.
+
+name: GG Roller
+genre: GARAGE
+steps: 16
+kick: x..........x....
+snare: ....A.......A...
+ch: xxxxxxxxxxxxxxxx
+oh: ..x...x...x...x.
+
+name: GG Snare Skip
+genre: GARAGE
+steps: 16
+kick: x..........x....
+snare: ....A..A....A..A
+ch: x.x.x.x.x.x.x.x.
+
+name: GG 2Step Sub
+genre: GARAGE
+steps: 16
+kick: x...g......x...g
+snare: ....A.......A...
+oh: ..x...x...x...x.
+
+name: GG Two Bar
+genre: GARAGE
+steps: 32
+kick: x..........x....x......x...x....
+snare: ....A.......A.......A.......A...
+ch: x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
+oh: ..x...x...x...x...x...x...x...x.
