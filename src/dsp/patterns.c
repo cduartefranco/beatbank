@@ -287,6 +287,40 @@ static const char *kFallback =
     "kick:  x...x...x...x...\n" "clap:  ....A.......A...\n"
     "ch:    x.x.x.x.x.x.x.x.\n"  "oh:    ..x...x...x...x.\n";
 
+#define BB_MAX_GENRES 64
+
+void bb_bank_group_by_genre(BeatBank *bank)
+{
+    char order[BB_MAX_GENRES][sizeof(((BeatPattern*)0)->genre)];
+    int no = 0;
+    BeatPattern *out;
+    int k = 0;
+
+    if (!bank || bank->count <= 1 || !bank->patterns) return;
+
+    /* Distinct genres in first-appearance order. */
+    for (int i = 0; i < bank->count; i++) {
+        const char *g = bank->patterns[i].genre;
+        int found = 0;
+        for (int j = 0; j < no; j++) if (strcmp(order[j], g) == 0) { found = 1; break; }
+        if (!found && no < BB_MAX_GENRES) {
+            strncpy(order[no], g, sizeof(order[0]) - 1);
+            order[no][sizeof(order[0]) - 1] = '\0';
+            no++;
+        }
+    }
+
+    out = (BeatPattern *)malloc((size_t)bank->count * sizeof(BeatPattern));
+    if (!out) return;
+    for (int j = 0; j < no; j++)
+        for (int i = 0; i < bank->count; i++)
+            if (strcmp(bank->patterns[i].genre, order[j]) == 0)
+                out[k++] = bank->patterns[i];
+    /* k == count unless a genre overflowed BB_MAX_GENRES; guard by copying k. */
+    memcpy(bank->patterns, out, (size_t)k * sizeof(BeatPattern));
+    free(out);
+}
+
 int bb_bank_init(BeatBank *bank, const char *module_dir)
 {
     bank->count = 0;
@@ -305,6 +339,7 @@ int bb_bank_init(BeatBank *bank, const char *module_dir)
     if (bank->count == 0)
         bb_bank_parse_buffer(bank, kFallback);
 
+    bb_bank_group_by_genre(bank);
     return bank->count;
 }
 

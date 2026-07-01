@@ -62,10 +62,11 @@ country · bossa nova, samba, Latin, Afrobeat, reggae/dub, calypso.
 
 Menu: **Pattern View** · **Globals** · **Swap / None**.
 
-- **Pattern View** — a fullscreen grid: **jog** browses/selects the beat;
-  **jog-click / Back** exits. Each voice row shows the note *and the drum-rack
-  pad number* it drives (`p1`…`p16`), so you can see which pad to swap in your
-  sampler (e.g. MrDrums) to change a sound.
+- **Pattern** — a fullscreen grid view with **genre-first** browsing:
+  **jog** cycles patterns *within the current genre*, **Left/Right** switch
+  genre (the header shows `GENRE · name · pos/count`). **jog-click / Back**
+  exits. Each voice row shows the note *and the drum-rack pad number* it drives
+  (`p1`…`p16`), so you can see which pad to swap in your sampler (e.g. MrDrums).
 - **Globals** — **Swing** (delays the off-beat 16ths; deterministic, works on
   any synth — Move's Groove doesn't apply since we bypass its sequencer) and
   **Note Map** (below).

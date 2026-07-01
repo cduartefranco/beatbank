@@ -47,7 +47,7 @@ enum {
 };
 
 #define BB_MAX_STEPS     32
-#define BB_MAX_PATTERNS  400
+#define BB_MAX_PATTERNS  600
 
 #define BB_VEL_GHOST     40u
 #define BB_VEL_NORMAL    100u
@@ -83,6 +83,11 @@ typedef struct {
  * may be NULL (only the user folder + fallback are used). */
 int  bb_bank_init(BeatBank *bank, const char *module_dir);
 void bb_bank_free(BeatBank *bank);
+
+/* Stable-group the bank so all patterns of a genre are contiguous (genres in
+ * first-appearance order, order within a genre preserved). Called by
+ * bb_bank_init; exposed for tests. */
+void bb_bank_group_by_genre(BeatBank *bank);
 
 /* Parse one .beat text buffer, appending patterns to the bank (used by the
  * loader and the tests). Returns the number of patterns added. */

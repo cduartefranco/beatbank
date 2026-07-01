@@ -347,6 +347,20 @@ static int bb_get_param(void *instance, const char *key, char *buf, int buf_len)
         return snprintf(buf, buf_len, "{\"pattern\":%d,\"swing\":%u,\"note_map\":\"%s\"}",
                         bi->pattern, bi->swing, bi->note_map ? "drumrack" : "gm");
 
+    if (strcmp(key, "genre_list") == 0) {
+        /* Bank is grouped by genre, so same-genre patterns are contiguous.
+         * Emit "GENRE:count|GENRE:count|..." for the UI's genre navigation. */
+        int off = 0, i = 0;
+        while (i < g_bank.count && off < buf_len - 1) {
+            const char *gn = g_bank.patterns[i].genre;
+            int c = 0;
+            while (i + c < g_bank.count && strcmp(g_bank.patterns[i + c].genre, gn) == 0) c++;
+            off += snprintf(buf + off, buf_len - off, "%s%s:%d", i > 0 ? "|" : "", gn, c);
+            i += c;
+        }
+        return off;
+    }
+
     gi = indexed_key(key, "name");
     if (gi >= 0) { const BeatPattern *q = pattern_at(gi); return snprintf(buf, buf_len, "%s", q ? q->name : ""); }
     gi = indexed_key(key, "genre");

@@ -76,6 +76,23 @@ int main(void)
           "first fallback pattern is Boom Bap");
     bb_bank_free(&fb);
 
+    /* Group-by-genre: contiguous, first-appearance order, stable within genre. */
+    printf("\nGenre grouping\n");
+    BeatBank gb; gb.count = 0; gb.patterns = calloc(BB_MAX_PATTERNS, sizeof(BeatPattern));
+    bb_bank_parse_buffer(&gb,
+        "name: A\ngenre: X\nsteps: 16\nkick: x...............\n\n"
+        "name: B\ngenre: Y\nsteps: 16\nkick: x...............\n\n"
+        "name: C\ngenre: X\nsteps: 16\nkick: x...............\n\n"
+        "name: D\ngenre: Y\nsteps: 16\nkick: x...............\n");
+    bb_bank_group_by_genre(&gb);
+    CHECK(gb.count == 4, "4 patterns");
+    CHECK(strcmp(gb.patterns[0].genre, "X") == 0 && strcmp(gb.patterns[1].genre, "X") == 0 &&
+          strcmp(gb.patterns[2].genre, "Y") == 0 && strcmp(gb.patterns[3].genre, "Y") == 0,
+          "grouped by genre in first-appearance order (X then Y)");
+    CHECK(strcmp(gb.patterns[0].name, "A") == 0 && strcmp(gb.patterns[1].name, "C") == 0,
+          "within-genre order preserved (A before C)");
+    free(gb.patterns);
+
     if (failures) { printf("\nFAIL: %d check(s) failed\n", failures); return 1; }
     printf("\nOK: parser + loader valid\n");
     return 0;
