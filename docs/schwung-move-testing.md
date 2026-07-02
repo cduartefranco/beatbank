@@ -59,4 +59,9 @@ Not full cross-product — the axes most likely to expose inconsistency:
 
 ## Results log
 
-<!-- date · case · outcome · notes -->
+**Case 1** — Boom Bap 101, slot on T1 w/ Mr.Drums, Recv→T2 (built-in kit, T2 MIDI-in from T1). Mr.Drums not heard (expected, MIDI went to T2).
+- **Downbeat correct; every later step recorded +1 sixteenth late.** Constant 1-step shift — does not accumulate; persists into bar 2.
+- Recorded `ch` = `xx.x.x.x.x.x.x.x` vs original `x.x.x.x.x.x.x.x.` → parses as **{0} ∪ (all 8 hats +1 → {1,3,5,7,9,11,13,15})**, i.e. the **downbeat is doubled** (step 0 at *both* 0 and 1) and every hat is +1.
+- Kick: hit 1 (step 0) looks right; hit 2 (step 8) recorded at step 9 (+1).
+- **Read:** every generated note snaps forward one 16th in Move's *step recorder*; the downbeat is *additionally* anchored at step 0 by record punch-in (hence 0 **and** 1). Local slot-synth audio was tight in the earlier timing test, so generation is on time — the shift is introduced by the inject→Move-record path.
+- **TODO confirm:** does T2 sound tight *live* (only the recording is shifted)? Record-quantize on/off? Shift stay exactly 1 step at 2× tempo?
