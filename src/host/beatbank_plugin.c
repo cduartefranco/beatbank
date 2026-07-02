@@ -13,7 +13,9 @@
  * It plays straight at Move's tempo — silent unless the transport is running.
  *
  *   0xFA fires step 0 on the downbeat · 0xF8 advances (6 clocks / 16th),
- *   looping · 0xFC stop.
+ *   looping · 0xFC stop. The clock logic runs in process_midi but the notes
+ *   are emitted in tick() (see OutQueue) so the chain injects them to Move's
+ *   track via its tick path — recordings land on the grid, no host change.
  */
 
 #include "midi_fx_api_v1.h"
@@ -30,6 +32,7 @@
 #define CLOCKS_PER_STEP 6u   /* 24 PPQN / 4 sixteenths */
 #define GATE_CLOCKS     3u   /* note length in clocks (< one step) */
 #define OUT_CHANNEL     0u   /* the chain/slot rewrites the channel on output */
+#define BB_OUT_QUEUE    32   /* pending MIDI out; drained in tick(), not on the clock */
 
 static char g_note_keys[BB_NUM_VOICES][16];
 static const host_api_v1_t *g_host = NULL;
@@ -52,6 +55,15 @@ typedef struct {
     uint8_t clocks_left;
 } PendingNoteOff;
 
+/* MIDI produced by the clock logic (process_midi) is parked here and emitted in
+ * tick(), so the chain routes it through its tick inject path — which reaches
+ * Move's native track *after* the 0xF8 advances Move's step, recording on the
+ * grid instead of one step early. Also means no chain host change is needed. */
+typedef struct {
+    uint8_t msg[BB_OUT_QUEUE][3];
+    int     count;
+} OutQueue;
+
 typedef struct {
     int     pattern;                 /* selected index into the bank         */
     uint8_t note[BB_NUM_VOICES];     /* output note per voice                */
@@ -64,6 +76,7 @@ typedef struct {
 
     uint32_t preview_revision;
     PendingNoteOff pending[BB_NUM_VOICES];
+    OutQueue outq;
 } BeatBankInstance;
 
 /* ── Bank helpers ────────────────────────────────────────────────────────── */
@@ -98,49 +111,44 @@ static uint8_t clocks_before_step(const BeatBankInstance *bi, uint8_t step)
 
 /* ── MIDI emit (direct into the chain's out buffer) ──────────────────────── */
 
-static int emit(uint8_t status, uint8_t note, uint8_t vel,
-                uint8_t out_msgs[][3], int out_lens[], int max_out, int count)
+/* Park one message in the out queue; tick() drains it. */
+static void q_emit(BeatBankInstance *bi, uint8_t status, uint8_t note, uint8_t vel)
 {
-    if (count >= max_out) return count;
-    out_msgs[count][0] = status; out_msgs[count][1] = note; out_msgs[count][2] = vel;
-    out_lens[count] = 3;
-    return count + 1;
+    if (bi->outq.count >= BB_OUT_QUEUE) return;   /* full: drop (won't happen at one step/tick) */
+    int i = bi->outq.count++;
+    bi->outq.msg[i][0] = status; bi->outq.msg[i][1] = note; bi->outq.msg[i][2] = vel;
 }
 
-static int flush_all(BeatBankInstance *bi, uint8_t out_msgs[][3], int out_lens[], int max_out, int count)
+static void flush_all(BeatBankInstance *bi)
 {
     for (int v = 0; v < BB_NUM_VOICES; v++) {
         if (bi->pending[v].active) {
-            count = emit((uint8_t)(MIDI_NOTE_OFF | OUT_CHANNEL), bi->pending[v].note, 0, out_msgs, out_lens, max_out, count);
+            q_emit(bi, (uint8_t)(MIDI_NOTE_OFF | OUT_CHANNEL), bi->pending[v].note, 0);
             bi->pending[v].active = 0; bi->pending[v].clocks_left = 0;
-            if (count >= max_out) break;
         }
     }
-    return count;
 }
 
-static int advance_pending_clocks(BeatBankInstance *bi, uint8_t out_msgs[][3], int out_lens[], int max_out, int count)
+static void advance_pending_clocks(BeatBankInstance *bi)
 {
     for (int v = 0; v < BB_NUM_VOICES; v++) {
         PendingNoteOff *p = &bi->pending[v];
         if (!p->active) continue;
         if (p->clocks_left > 0) p->clocks_left--;
         if (p->clocks_left == 0) {
-            count = emit((uint8_t)(MIDI_NOTE_OFF | OUT_CHANNEL), p->note, 0, out_msgs, out_lens, max_out, count);
+            q_emit(bi, (uint8_t)(MIDI_NOTE_OFF | OUT_CHANNEL), p->note, 0);
             p->active = 0;
-            if (count >= max_out) break;
         }
     }
-    return count;
 }
 
-static int fire_step(BeatBankInstance *bi, uint8_t out_msgs[][3], int out_lens[], int max_out, int count)
+static void fire_step(BeatBankInstance *bi)
 {
     const BeatPattern *p = pattern_at(bi->pattern);
     uint8_t steps = pattern_steps(bi);
     uint8_t step = bi->cur_step;
 
-    if (!p) return count;
+    if (!p) return;
     if (step >= steps) step = 0;
 
     for (int v = 0; v < BB_NUM_VOICES; v++) {
@@ -148,20 +156,17 @@ static int fire_step(BeatBankInstance *bi, uint8_t out_msgs[][3], int out_lens[]
         PendingNoteOff *pn = &bi->pending[v];
         uint8_t vel;
         if (pn->active) {
-            count = emit((uint8_t)(MIDI_NOTE_OFF | OUT_CHANNEL), pn->note, 0, out_msgs, out_lens, max_out, count);
+            q_emit(bi, (uint8_t)(MIDI_NOTE_OFF | OUT_CHANNEL), pn->note, 0);
             pn->active = 0;
-            if (count >= max_out) return count;
         }
         if (!row[0]) continue;
         if (step >= (uint8_t)strlen(row)) continue;
         vel = bb_char_velocity(row[step]);
         if (vel == 0) continue;
-        count = emit((uint8_t)(MIDI_NOTE_ON | OUT_CHANNEL), bi->note[v], vel, out_msgs, out_lens, max_out, count);
-        if (count >= max_out) return count;
+        q_emit(bi, (uint8_t)(MIDI_NOTE_ON | OUT_CHANNEL), bi->note[v], vel);
         pn->active = 1; pn->note = bi->note[v]; pn->clocks_left = GATE_CLOCKS;
     }
     bi->cur_step = (uint8_t)((step + 1) % steps);
-    return count;
 }
 
 /* ── Lifecycle ───────────────────────────────────────────────────────────── */
@@ -195,51 +200,45 @@ static void *bb_create_instance(const char *module_dir, const char *config_json)
 
 static void bb_destroy_instance(void *instance) { free(instance); }
 
-/* ── MIDI clock processing (loops the pattern, drives the slot synth) ─────── */
+/* ── MIDI clock processing ───────────────────────────────────────────────────
+ * Runs the step/gate logic on Move's clock and PARKS the resulting notes in the
+ * out queue. The notes are emitted in bb_tick(), so the chain forwards them via
+ * its tick inject path — which reaches Move's native track after the 0xF8 has
+ * advanced Move's step, so recordings land on the grid (not one step early),
+ * with no chain host change required. Local slot-synth timing is unchanged:
+ * tick() runs in the same audio block, and the synth renders per block anyway. */
 
 static int bb_process_midi(void *instance, const uint8_t *in_msg, int in_len,
                            uint8_t out_msgs[][3], int out_lens[], int max_out)
 {
     BeatBankInstance *bi = (BeatBankInstance *)instance;
+    (void)out_msgs; (void)out_lens; (void)max_out;   /* output goes out in tick() */
     if (!bi || in_len == 0) return 0;
 
     if (in_msg[0] == 0xFAu) {                     /* Start */
-        int count = flush_all(bi, out_msgs, out_lens, max_out, 0);
+        flush_all(bi);
         bi->cur_step = 0;
         bi->clock_running = 1;
-        /* Fire the downbeat ON Start, coincident with Move's transport (its
-         * native tracks do the same). Counting a full step before step 0 put
-         * the whole beat one 16th behind. fire_step advances cur_step, so the
-         * NEXT step is then scheduled a normal interval out. */
-        if (count < max_out)
-            count = fire_step(bi, out_msgs, out_lens, max_out, count);
+        fire_step(bi);                            /* downbeat on Start */
         bi->midi_clocks_until_tick = clocks_before_step(bi, bi->cur_step);
-        return count;
-    }
-    if (in_msg[0] == 0xFBu) {                      /* Continue */
+    } else if (in_msg[0] == 0xFBu) {              /* Continue */
         bi->clock_running = 1;
-        return 0;
-    }
-    if (in_msg[0] == 0xF8u) {                      /* Clock tick */
-        int count = 0;
+    } else if (in_msg[0] == 0xF8u) {              /* Clock tick */
         if (!bi->clock_running) return 0;
-        count = advance_pending_clocks(bi, out_msgs, out_lens, max_out, count);
-        if (count >= max_out) return count;
+        advance_pending_clocks(bi);
         if (bi->midi_clocks_until_tick > 0) bi->midi_clocks_until_tick--;
         if (bi->midi_clocks_until_tick == 0) {
-            count = fire_step(bi, out_msgs, out_lens, max_out, count);   /* loops */
+            fire_step(bi);                        /* loops */
             bi->midi_clocks_until_tick = clocks_before_step(bi, bi->cur_step);
         }
-        return count;
-    }
-    if (in_msg[0] == 0xFCu) {                      /* Stop */
+    } else if (in_msg[0] == 0xFCu) {              /* Stop */
         bi->clock_running = 0;
-        return flush_all(bi, out_msgs, out_lens, max_out, 0);
+        flush_all(bi);
     }
-    return 0;
+    return 0;                                      /* notes emitted in bb_tick() */
 }
 
-/* ── Tick: stop cleanly if the clock goes away without a 0xFC ────────────── */
+/* ── Tick: emit the queued notes; stop cleanly if the clock vanishes ──────── */
 
 static int bb_tick(void *instance, int frames, int sample_rate,
                    uint8_t out_msgs[][3], int out_lens[], int max_out)
@@ -253,10 +252,27 @@ static int bb_tick(void *instance, int frames, int sample_rate,
         if ((status == MOVE_CLOCK_STATUS_STOPPED ||
              status == MOVE_CLOCK_STATUS_UNAVAILABLE) && bi->clock_running) {
             bi->clock_running = 0;
-            return flush_all(bi, out_msgs, out_lens, max_out, 0);
+            flush_all(bi);
         }
     }
-    return 0;
+
+    /* Drain the queue built since the last tick. If it somehow overran max_out,
+     * keep the remainder for the next tick (shift down) rather than dropping. */
+    int n = bi->outq.count < max_out ? bi->outq.count : max_out;
+    for (int i = 0; i < n; i++) {
+        out_msgs[i][0] = bi->outq.msg[i][0];
+        out_msgs[i][1] = bi->outq.msg[i][1];
+        out_msgs[i][2] = bi->outq.msg[i][2];
+        out_lens[i] = 3;
+    }
+    int rem = bi->outq.count - n;
+    for (int i = 0; i < rem; i++) {
+        bi->outq.msg[i][0] = bi->outq.msg[n + i][0];
+        bi->outq.msg[i][1] = bi->outq.msg[n + i][1];
+        bi->outq.msg[i][2] = bi->outq.msg[n + i][2];
+    }
+    bi->outq.count = rem;
+    return n;
 }
 
 /* ── Parameter I/O ───────────────────────────────────────────────────────── */
