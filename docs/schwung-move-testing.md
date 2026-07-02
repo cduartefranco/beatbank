@@ -60,8 +60,8 @@ Not full cross-product — the axes most likely to expose inconsistency:
 ## Results log
 
 **Case 1** — Boom Bap 101, slot on T1 w/ Mr.Drums, Recv→T2 (built-in kit, T2 MIDI-in from T1). Mr.Drums not heard (expected, MIDI went to T2).
-- **Downbeat correct; every later step recorded +1 sixteenth late.** Constant 1-step shift — does not accumulate; persists into bar 2.
-- Recorded `ch` = `xx.x.x.x.x.x.x.x` vs original `x.x.x.x.x.x.x.x.` → parses as **{0} ∪ (all 8 hats +1 → {1,3,5,7,9,11,13,15})**, i.e. the **downbeat is doubled** (step 0 at *both* 0 and 1) and every hat is +1.
-- Kick: hit 1 (step 0) looks right; hit 2 (step 8) recorded at step 9 (+1).
-- **Read:** every generated note snaps forward one 16th in Move's *step recorder*; the downbeat is *additionally* anchored at step 0 by record punch-in (hence 0 **and** 1). Local slot-synth audio was tight in the earlier timing test, so generation is on time — the shift is introduced by the inject→Move-record path.
-- **TODO confirm:** does T2 sound tight *live* (only the recording is shifted)? Record-quantize on/off? Shift stay exactly 1 step at 2× tempo?
+- **Downbeat lands on step 0; every *later* step records one 16th EARLY (−1).** Constant 1-step shift — does not accumulate; persists into bar 2.
+- Kick (steps 0, 8): hit 1 at step 0 (correct), **hit 2 (step 8) recorded at step 7** → confirms −1 (early), not late.
+- Recorded `ch` ≈ `{0, 1,3,5,7,9,11,13,15}`: downbeat at 0, all other hats −1 (step 2→1, 4→3, … 14→13, step 0 also wraps to 15).
+- **Model:** step 0 fires on `0xFA` (transport start) → recorded at Move's step 0. Every later step k fires on the same `0xF8` that advances Move to step k, but the injected note is recorded against Move's **current** step (k−1) *before* the clock advances → −1. Local slot-synth audio was tight (earlier test), so generation is on time; this is an **inject-delivery vs Move-clock-advance ordering** issue in the record path, not our sequencer.
+- **TODO confirm:** does T2 sound tight *live* (only the recording is off)? Record-quantize on/off? Does the shift stay exactly 1 step at 2× tempo?
