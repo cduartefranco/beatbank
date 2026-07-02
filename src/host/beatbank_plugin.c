@@ -37,9 +37,14 @@
 static char g_note_keys[BB_NUM_VOICES][16];
 static const host_api_v1_t *g_host = NULL;
 
-/* Compile-time build stamp, surfaced in the menu (get_param "build") so you can
- * tell a fresh deploy from a cached binary. Updates whenever this file compiles. */
-static const char BB_BUILD[] = __DATE__ " " __TIME__;
+/* Build stamp surfaced in the menu (get_param "build") so you can tell a fresh
+ * deploy from a cached binary. build.sh injects a fresh value every build via
+ * -DBB_BUILD_STAMP (git hash + UTC build time), which also busts the Docker
+ * compile cache; falls back to the compile timestamp for a plain `make`. */
+#ifndef BB_BUILD_STAMP
+#define BB_BUILD_STAMP __DATE__ " " __TIME__
+#endif
+static const char BB_BUILD[] = BB_BUILD_STAMP;
 
 /* Note-map modes (voice order: kick snare ch oh clap rim tom ride crash cowbell conga perc).
  *   gm       — full General MIDI drum map; correct for SF2 / soundfont GM kits.
